@@ -1,0 +1,203 @@
+{
+ "as_of": "2026-10-15 3:16 PM CT (close)",
+ "current_node_ids": [
+  "now",
+  "opex",
+  "window",
+  "wiz_week",
+  "misses"
+ ],
+ "current_timeline_id": "t_opex",
+ "status": {
+  "now": "triggered",
+  "wiz_week": "watching",
+  "energy": "watching",
+  "energy_up": "watching",
+  "energy_down": "pending",
+  "earnings": "watching",
+  "beats": "pending",
+  "misses": "triggered",
+  "rates": "watching",
+  "s3": "pending",
+  "corr_vix": "watching",
+  "no_pinned": "pending",
+  "bear": "pending",
+  "puts": "pending",
+  "opex": "watching",
+  "window": "watching",
+  "target": "pending"
+ },
+ "daily_note": [
+  {
+   "date": "2026-10-12",
+   "text": "The index stayed calm and pinned near SPX 7,807 (VIX ~15) while chip stocks slipped underneath it: Micron fell about 4% to ~$989 on news of a Chinese memory rival, but it's still just above its 50-day average (~$976), so 'winners crack' stays on watch, not triggered. Bonds are still below their trend line, so the rates branch is on watch too; next up are ASML and CPI Wednesday, TSM and PPI Thursday, and OPEX Friday."
+  },
+  {
+   "date": "2026-10-13",
+   "text": "Micron fell another 3.6% to about $953 on worries about a Chinese memory rival and a possible strike at one of its Taiwan plants, closing below its 50-day average (~$980), so the 'winners crack' box is now lit while the index stays calm near SPX 7,805 and VIX ~15. That's one fuse; the bear branch still needs correlation and VIX to rise together, and bonds only half-confirm (TLT is under its trend line but rose today), with ASML and CPI tomorrow, TSM and PPI Thursday, and OPEX Friday."
+  },
+  {
+   "date": "2026-10-14",
+   "text": "Hot September CPI (3.7% year-over-year) and ASML's post-earnings slide pushed SPX to close near 7,719 \u2014 still under the 7,750 early-bear line \u2014 with VIX near 17 and chips weak (Micron around $914). That puts a second 'winner crack' on the board (need three), OPEX is Friday, and TSM plus PPI land tomorrow before the Oct 19\u201323 drop window."
+  },
+  {
+   "date": "2026-10-15",
+   "text": "TSM posted record profit but its stock still slid to about $422.55, below its 50-day average (~$434), making it the third big chip winner to crack after a report (after Micron and ASML), so the 'winners crack' box is now fully lit while SPX held near 7,744 (just under 7,750) and VIX eased to about 16.5. The bear branch still needs correlation and VIX to rise together, and bonds rallied today despite a hot PPI (TLT back above its trend line), so rates aren't confirming yet; OPEX is tomorrow and the Oct 19\u201323 window opens Monday."
+  }
+ ],
+ "levels": {
+  "as_of": "2026-10-15 3:16 PM CT (close)",
+  "source": "Robinhood market data (read-only)",
+  "SPX": {
+   "last": 7744.06,
+   "breakdown": 7750,
+   "upside_trend": 7850,
+   "wiz_target": 7000
+  },
+  "VIX": {
+   "last": 16.46
+  },
+  "MU": {
+   "last": 931.4,
+   "sma50": 982.41,
+   "prev_close": 914.13
+  },
+  "SOXX": {
+   "last": 514.71,
+   "prev_close": 519.42
+  },
+  "QQQ": {
+   "last": 728.04,
+   "prev_close": 728.95
+  },
+  "TLT": {
+   "last": 80.0,
+   "ema21": 79.01
+  },
+  "TBT": {
+   "last": 39.93,
+   "ema21": 41.13
+  },
+  "MOVE": {
+   "last": 102.49,
+   "as_of": "2026-10-15 3:17 PM CT (CNBC)"
+  },
+  "US20Y": {
+   "last": 5.48,
+   "as_of": "2026-10-15 (Treasury.gov daily close; CNBC 3:18 PM CT also 5.48%)"
+  }
+ },
+ "events": {
+  "now": [],
+  "wiz_week": [],
+  "energy": [],
+  "earnings": [
+   {
+    "date": "2026-10-14",
+    "time_ct": "2:09 PM",
+    "status_from": "pending",
+    "status_to": "watching",
+    "why": "ASML reported this morning; stock ~\\$1675 (~2.5% down) with semis selling off into TSM tomorrow and OPEX Friday.",
+    "source": "Robinhood market data (read-only)"
+   }
+  ],
+  "energy_up": [],
+  "energy_down": [],
+  "beats": [],
+  "misses": [
+   {
+    "date": "2026-10-13",
+    "time_ct": "3:20 PM",
+    "status_from": "watching",
+    "status_to": "triggered",
+    "why": "Micron closed at $953.19, down 3.6% from $989.04 and below its 50-day average of about $979.51, on news of a stronger Chinese memory rival (CXMT DRAM), a strike vote at its Taiwan plant and AI-spending worries. The index stayed calm: SPX 7,805.45, VIX 15.27.",
+    "source": "Robinhood close data"
+   },
+   {
+    "date": "2026-10-13",
+    "time_ct": "5:50 PM",
+    "status_from": "triggered",
+    "status_to": "starting",
+    "why": "Only 1 of 3 needed cracks so far (MU); trigger needs 3.",
+    "source": "Desk rule change"
+   },
+   {
+    "date": "2026-10-14",
+    "time_ct": "3:18 PM",
+    "status_from": "starting",
+    "status_to": "starting",
+    "why": "Crack 2 of 3: ASML - ASML closed at $1649.90 after its report, down about 4% from $1717.76 and below its 50-day average of about $1742.54, as chips sold off on hot CPI and rate-hike fears. SPX 7718.94, VIX 16.87.",
+    "source": "Robinhood market data (read-only)"
+   },
+   {
+    "date": "2026-10-15",
+    "time_ct": "3:17 PM",
+    "status_from": "starting",
+    "status_to": "triggered",
+    "why": "Crack 3 of 3: TSM - TSM beat with record profit but still fell about 1.7% to close at $422.55, below its 50-day average of about $434.31, as investors sold chips anyway. Third big chip winner to crack after a report (after MU and ASML). SPX 7744.06, VIX 16.46.",
+    "source": "Robinhood market data (read-only)"
+   }
+  ],
+  "rates": [],
+  "corr_vix": [
+   {
+    "date": "2026-10-14",
+    "time_ct": "2:09 PM",
+    "status_from": "pending",
+    "status_to": "watching",
+    "why": "SPX 7701.64 fell below the 7750 breakdown line; VIX 17.22 (was ~15.3 yesterday).",
+    "source": "Robinhood market data (read-only)"
+   }
+  ],
+  "no_pinned": [],
+  "bear": [],
+  "puts": [],
+  "opex": [
+   {
+    "date": "2026-10-14",
+    "time_ct": "3:18 PM",
+    "status_from": "pending",
+    "status_to": "watching",
+    "why": "Friday Oct 16 OPEX is two sessions away; hot CPI and SPX already under 7750 put the +vanna-expiry week in play.",
+    "source": "Robinhood market data (read-only)"
+   }
+  ],
+  "window": [
+   {
+    "date": "2026-10-14",
+    "time_ct": "2:09 PM",
+    "status_from": "pending",
+    "status_to": "watching",
+    "why": "SPX 7701.64 fell below the 7750 breakdown line; VIX 17.22 (was ~15.3 yesterday).",
+    "source": "Robinhood market data (read-only)"
+   }
+  ],
+  "midterms": [],
+  "target": []
+ },
+ "cracks": {
+  "misses": {
+   "count": 3,
+   "needed": 3,
+   "rule": "Triggers only when 3 big winners (megacaps/semis) close below their 50-day average on a bad report or AI-spending miss.",
+   "list": [
+    {
+     "date": "2026-10-13",
+     "ticker": "MU",
+     "why": "closed $953.19, below its 50-day average of $979.51"
+    },
+    {
+     "date": "2026-10-14",
+     "ticker": "ASML",
+     "why": "ASML closed at $1649.90 after its report, down about 4% from $1717.76 and below its 50-day average of about $1742.54, as chips sold off on hot CPI and rate-hike fears. SPX 7718.94, VIX 16.87."
+    },
+    {
+     "date": "2026-10-15",
+     "ticker": "TSM",
+     "why": "TSM beat with record profit but still fell about 1.7% to close at $422.55, below its 50-day average of about $434.31, as investors sold chips anyway. Third big chip winner to crack after a report (after MU and ASML). SPX 7744.06, VIX 16.46."
+    }
+   ]
+  }
+ },
+ "primary_node_id": "misses"
+}
