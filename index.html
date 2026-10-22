@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>if(location.hash.toLowerCase()=="#robotics")location.replace("robotics.html")</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Flow Scorecard · AheadOfTheDOM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=headerunify1" />
+</head>
+<body>
+  <div class="wrap">
+    <nav class="top" aria-label="Site"><a class="on" href="index.html">Scorecard</a><a href="robotics.html">Robotics</a><a href="q4.html">Q4 Bearish</a></nav>
+    <header class="header">
+      <div class="brand">
+        <div class="brand-row">
+          <span class="logo">Hawk Desk</span>
+          <div id="brand-badges"></div>
+        </div>
+        <h1 class="title">Weekly Flow Scorecard</h1>
+        <div class="meta">
+          <span>Week of <strong id="week-of">—</strong></span>
+          <span id="iso-week"></span>
+          <span>Updated <strong id="last-updated">—</strong></span>
+          <span id="last-updated-et"></span>
+        </div>
+        <div class="meta" style="margin-top:4px">
+          <span id="lookback" style="max-width:720px"></span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="blend-note" id="blend-note">Composite blend · <em>LOCKED v1: 0.65 flow / 0.35 tech</em></div>
+        <div class="poll-status" id="poll-status">polling…</div>
+      </div>
+    </header>
+
+
+
+    <section id="tab-scorecard" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-scorecard">
+      <p class="hint">Click a name for Hawk Trade Card detail · Flow Intelligence panels on the right</p>
+      <main id="grid" class="board-list"></main>
+      <div id="watch-section"></div>
+    </section>
+
+    <section id="tab-robotics" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-robotics" hidden>
+      <div id="robotics-root"><div class="empty">Loading robotics.json…</div></div>
+    </section>
+
+    <footer class="footer">
+      <p class="advisory" id="advisory">Advisory only — not an order ticket.</p>
+      <p id="quiet"></p>
+      <p>Markdown scorecard: <a id="md-link" href="#">—</a></p>
+      <p>Template: <code>../WEEKLY-FLOW-SCORECARD-TEMPLATE.md</code> (LOCKED v1) · AheadOfTheDOM</p>
+      <details class="gaps" id="gaps" style="display:none">
+        <summary>Data gaps (this board)</summary>
+        <ul></ul>
+      </details>
+    </footer>
+  </div>
+
+  <!-- Hawk detail overlay -->
+  <div id="detail-overlay" class="detail-overlay" hidden>
+    <div class="detail-shell" role="dialog" aria-modal="true" aria-labelledby="detail-ticker">
+      <div class="detail-topbar">
+        <div class="detail-topbar-left">
+          <span class="detail-kicker">HAWK TRADE CARD</span>
+          <span class="detail-sub">Flow Scorecard · AheadOfTheDOM</span>
+        </div>
+        <div class="detail-topbar-right">
+          <span id="detail-spot-pill" class="spot-pill"></span>
+          <button type="button" class="close-btn" id="detail-close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="detail-body">
+        <section class="trade-card" id="trade-card"></section>
+        <aside class="flow-intel" id="flow-intel"></aside>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=headerunify1"></script>
+</body>
+</html>

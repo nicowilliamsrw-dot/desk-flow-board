@@ -1,0 +1,1235 @@
+{
+ "schema": "x = 1-30 DTE vanna vs past 6 months (-1..+1, right = bullish lean); y = gamma stochastic (+1 calm, -1 volatile). quad: green=top-right measured upside, blue=bottom-right volatile upside, orange=top-left slow decline, red=bottom-left rapid volatile decline. pos: exact | chart_read (approx, read off screenshot gridlines) | quadrant_only (dot off-chart/unlabeled; placed in quadrant for display only)",
+ "snapshots": [
+  {
+   "date": "2026-10-12",
+   "as_of_ct": "2026-10-12 ~10:30 CT",
+   "note": "Baseline before Oct OPEX (Fri Oct 16). Exact values were not saved; x/y read approximately off the Volland screenshot. Many green names sat beyond the chart's right edge (axis clipped near x\u22480.75), so only their quadrant is known.",
+   "points": {
+    "MU": {
+     "x": -1,
+     "y": -0.64,
+     "quad": "red",
+     "pos": "chart_read"
+    },
+    "SOXL": {
+     "x": -1,
+     "y": -0.32,
+     "quad": "red",
+     "pos": "chart_read"
+    },
+    "APP": {
+     "x": -1,
+     "y": -0.6,
+     "quad": "red",
+     "pos": "chart_read"
+    },
+    "SHOP": {
+     "x": -1,
+     "y": -0.82,
+     "quad": "red",
+     "pos": "chart_read"
+    },
+    "INTU": {
+     "x": -0.75,
+     "y": -0.51,
+     "quad": "red",
+     "pos": "chart_read"
+    },
+    "AMAT": {
+     "x": -0.64,
+     "y": -0.05,
+     "quad": "red",
+     "pos": "chart_read"
+    },
+    "QQQ": {
+     "x": -1,
+     "y": 0.34,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "AAPL": {
+     "x": -1,
+     "y": 0.57,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "DDOG": {
+     "x": -1,
+     "y": 0.46,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "NFLX": {
+     "x": -0.83,
+     "y": 0.36,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "NVDA": {
+     "x": -0.39,
+     "y": 0.59,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "ASML": {
+     "x": -0.32,
+     "y": 0.11,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "SMH": {
+     "x": -0.19,
+     "y": 0.27,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "SOXX": {
+     "x": -0.05,
+     "y": 0,
+     "quad": "orange",
+     "pos": "chart_read"
+    },
+    "CRDO": {
+     "x": null,
+     "y": null,
+     "quad": "blue",
+     "pos": "quadrant_only"
+    },
+    "TSM": {
+     "x": 0.01,
+     "y": -0.37,
+     "quad": "blue",
+     "pos": "chart_read"
+    },
+    "KLAC": {
+     "x": 0.03,
+     "y": -0.63,
+     "quad": "blue",
+     "pos": "chart_read"
+    },
+    "AMD": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "LRCX": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "ORCL": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "GOOGL": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "ARM": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "PLTR": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "ANET": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "TSLA": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "MRVL": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "AMZN": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "MSFT": {
+     "x": 0.71,
+     "y": 0.79,
+     "quad": "green",
+     "pos": "chart_read"
+    },
+    "AVGO": {
+     "x": 0.48,
+     "y": 0.75,
+     "quad": "green",
+     "pos": "chart_read"
+    },
+    "META": {
+     "x": 0.15,
+     "y": 0.04,
+     "quad": "green",
+     "pos": "chart_read"
+    },
+    "EWT": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "EWY": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    },
+    "EEM": {
+     "x": null,
+     "y": null,
+     "quad": "green",
+     "pos": "quadrant_only"
+    }
+   }
+  },
+  {
+   "date": "2026-10-13",
+   "as_of_ct": "2026-10-13 ~9:03 CT",
+   "note": "Exact tooltip values for all 33 tickers (NVDA from the chart's accessibility label). Many names pinned at the chart's +/-1 edge.",
+   "points": {
+    "NVDA": {
+     "x": -0.68,
+     "y": 0.51,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "INTU": {
+     "x": -0.55,
+     "y": -0.38,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SHOP": {
+     "x": -1,
+     "y": -0.68,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "QQQ": {
+     "x": -1,
+     "y": 0.5,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SMH": {
+     "x": -1,
+     "y": -0.32,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXX": {
+     "x": -0.78,
+     "y": -0.41,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXL": {
+     "x": -1,
+     "y": 0.22,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AVGO": {
+     "x": -0.4,
+     "y": 0.33,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "MU": {
+     "x": -0.92,
+     "y": 0.3,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "TSM": {
+     "x": 0.07,
+     "y": -0.33,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ASML": {
+     "x": -0.39,
+     "y": 0.02,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMD": {
+     "x": -0.4,
+     "y": -0.22,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "LRCX": {
+     "x": -0.02,
+     "y": 0.13,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMAT": {
+     "x": -0.79,
+     "y": -0.2,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "KLAC": {
+     "x": 0.89,
+     "y": -0.42,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ARM": {
+     "x": 1,
+     "y": 0.41,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "CRDO": {
+     "x": 0.91,
+     "y": -0.49,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "MRVL": {
+     "x": 1,
+     "y": 0.3,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ANET": {
+     "x": 1,
+     "y": 0.68,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "PLTR": {
+     "x": 1,
+     "y": 1,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ORCL": {
+     "x": 1,
+     "y": 0.56,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "META": {
+     "x": 0.95,
+     "y": 1,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "MSFT": {
+     "x": 0.41,
+     "y": 0.51,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "AAPL": {
+     "x": -1,
+     "y": 0.69,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMZN": {
+     "x": 0.85,
+     "y": 0.99,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "GOOGL": {
+     "x": 1,
+     "y": 0.31,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "TSLA": {
+     "x": 1,
+     "y": 0.58,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "NFLX": {
+     "x": -0.21,
+     "y": 0.5,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "APP": {
+     "x": -1,
+     "y": -1,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "DDOG": {
+     "x": -1,
+     "y": 0.49,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "EWT": {
+     "x": 0.73,
+     "y": 0.8,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EWY": {
+     "x": 1,
+     "y": 0.17,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EEM": {
+     "x": 1,
+     "y": 0.7,
+     "quad": "green",
+     "pos": "exact"
+    }
+   }
+  },
+  {
+   "date": "2026-10-14",
+   "as_of_ct": "2026-10-14 ~8:48 CT",
+   "note": "Exact accessibility-label values for all 33 tickers, tooltip-confirmed for 31; NVDA and MRVL (overlaps EWY) matched by series order.",
+   "points": {
+    "NVDA": {
+     "x": -0.53,
+     "y": 0.55,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "INTU": {
+     "x": -0.57,
+     "y": -0.4,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SHOP": {
+     "x": -1,
+     "y": -0.67,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "QQQ": {
+     "x": -1,
+     "y": 0.5,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SMH": {
+     "x": -1,
+     "y": -0.3,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXX": {
+     "x": -1,
+     "y": -0.56,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXL": {
+     "x": -1,
+     "y": 0.17,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AVGO": {
+     "x": -0.29,
+     "y": 0.36,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "MU": {
+     "x": -1,
+     "y": 0.15,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "TSM": {
+     "x": 0.08,
+     "y": -0.33,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ASML": {
+     "x": -0.47,
+     "y": -0.08,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AMD": {
+     "x": -0.43,
+     "y": -0.23,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "LRCX": {
+     "x": -0.17,
+     "y": 0.07,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMAT": {
+     "x": -1,
+     "y": -0.48,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "KLAC": {
+     "x": 1,
+     "y": -0.35,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ARM": {
+     "x": 1,
+     "y": 0.08,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "CRDO": {
+     "x": -0.07,
+     "y": -0.67,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "MRVL": {
+     "x": 1,
+     "y": 0.2,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ANET": {
+     "x": 1,
+     "y": 0.59,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "PLTR": {
+     "x": 1,
+     "y": 0.98,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ORCL": {
+     "x": 0.69,
+     "y": 0.15,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "META": {
+     "x": 0.52,
+     "y": 0.51,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "MSFT": {
+     "x": 0.49,
+     "y": 0.59,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "AAPL": {
+     "x": -1,
+     "y": 0.76,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMZN": {
+     "x": 0.7,
+     "y": 0.94,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "GOOGL": {
+     "x": 1,
+     "y": 0.51,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "TSLA": {
+     "x": 0.78,
+     "y": 0.39,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "NFLX": {
+     "x": -0.75,
+     "y": 0.38,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "APP": {
+     "x": -1,
+     "y": -0.96,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "DDOG": {
+     "x": -1,
+     "y": 0.43,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "EWT": {
+     "x": 0.35,
+     "y": 0.73,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EWY": {
+     "x": 1,
+     "y": 0.2,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EEM": {
+     "x": 1,
+     "y": 0.32,
+     "quad": "green",
+     "pos": "exact"
+    }
+   }
+  },
+  {
+   "date": "2026-10-16",
+   "as_of_ct": "2026-10-16 ~8:50 CT",
+   "note": "Exact hover-tooltip values for all 33 tickers, each matching the chart's accessibility label. OPEX day; no Oct 15 snapshot was saved, so changes compare to Oct 14.",
+   "points": {
+    "NVDA": {
+     "x": -1,
+     "y": -0.4,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "INTU": {
+     "x": -0.18,
+     "y": 0.03,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SHOP": {
+     "x": -0.71,
+     "y": -0.45,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "QQQ": {
+     "x": -1,
+     "y": 0.31,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SMH": {
+     "x": 0.58,
+     "y": 0.47,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "SOXX": {
+     "x": -1,
+     "y": -0.8,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXL": {
+     "x": -1,
+     "y": -0.31,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AVGO": {
+     "x": -1,
+     "y": -0.13,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "MU": {
+     "x": -0.85,
+     "y": 0.25,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "TSM": {
+     "x": 0.75,
+     "y": 0.14,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ASML": {
+     "x": -0.45,
+     "y": 0.15,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMD": {
+     "x": -1,
+     "y": -0.47,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "LRCX": {
+     "x": -1,
+     "y": -0.26,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AMAT": {
+     "x": -1,
+     "y": -0.64,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "KLAC": {
+     "x": 1,
+     "y": -0.17,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ARM": {
+     "x": 0.71,
+     "y": -0.14,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "CRDO": {
+     "x": 1,
+     "y": -0.43,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "MRVL": {
+     "x": 0.57,
+     "y": -0.05,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ANET": {
+     "x": 1,
+     "y": 0.45,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "PLTR": {
+     "x": -0.17,
+     "y": 0.32,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "ORCL": {
+     "x": 1,
+     "y": 0.49,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "META": {
+     "x": 0.27,
+     "y": 0.13,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "MSFT": {
+     "x": 0.68,
+     "y": 0.71,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "AAPL": {
+     "x": 0.33,
+     "y": 1,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "AMZN": {
+     "x": 0.22,
+     "y": 0.69,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "GOOGL": {
+     "x": 1,
+     "y": 0.04,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "TSLA": {
+     "x": 0.91,
+     "y": 0.22,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "NFLX": {
+     "x": -0.86,
+     "y": 0.14,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "APP": {
+     "x": -1,
+     "y": -0.53,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "DDOG": {
+     "x": -0.91,
+     "y": 0.63,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "EWT": {
+     "x": 0.1,
+     "y": 0.69,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EWY": {
+     "x": 1,
+     "y": 0.21,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EEM": {
+     "x": 1,
+     "y": -0.03,
+     "quad": "blue",
+     "pos": "exact"
+    }
+   }
+  },
+  {
+   "date": "2026-10-20",
+   "as_of_ct": "2026-10-20 ~8:45 CT",
+   "note": "Exact accessibility-label values (2 decimals) for all 33 tickers; NVDA/SHOP and ANET confirmed by hover tooltip. No Oct 19 snapshot was saved, so changes compare to Oct 16 (pre-OPEX roll-off).",
+   "points": {
+    "NVDA": {
+     "x": -1,
+     "y": -0.58,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SHOP": {
+     "x": -1,
+     "y": -0.6,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "INTU": {
+     "x": 0.56,
+     "y": 0.59,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "QQQ": {
+     "x": -1,
+     "y": 0.42,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SMH": {
+     "x": -0.15,
+     "y": 0.5,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SOXX": {
+     "x": -0.68,
+     "y": -0.36,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXL": {
+     "x": -1,
+     "y": 0.19,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AVGO": {
+     "x": -1,
+     "y": -0.01,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "MU": {
+     "x": -0.78,
+     "y": 0.5,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "TSM": {
+     "x": 0.15,
+     "y": -0.28,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ASML": {
+     "x": -0.55,
+     "y": -0.02,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AMD": {
+     "x": -0.76,
+     "y": -0.34,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "LRCX": {
+     "x": -0.37,
+     "y": -0.15,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AMAT": {
+     "x": -0.54,
+     "y": 0.07,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "KLAC": {
+     "x": 1,
+     "y": 0.07,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ARM": {
+     "x": 0.53,
+     "y": -0.2,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "CRDO": {
+     "x": 1,
+     "y": -0.16,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "MRVL": {
+     "x": 0.05,
+     "y": -0.3,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ANET": {
+     "x": 1,
+     "y": 0.11,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "PLTR": {
+     "x": 0.15,
+     "y": 0.32,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ORCL": {
+     "x": 1,
+     "y": 0.31,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "META": {
+     "x": 0.64,
+     "y": 0.67,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "MSFT": {
+     "x": 0.74,
+     "y": 0.76,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "AAPL": {
+     "x": -1,
+     "y": 0.32,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMZN": {
+     "x": 0.25,
+     "y": 0.63,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "GOOGL": {
+     "x": 0.53,
+     "y": -0.27,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "TSLA": {
+     "x": 0.95,
+     "y": 0.15,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "NFLX": {
+     "x": -1,
+     "y": -0.2,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "APP": {
+     "x": -1,
+     "y": -0.25,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "DDOG": {
+     "x": 0.51,
+     "y": 0.91,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EWT": {
+     "x": -0.54,
+     "y": 0.57,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "EWY": {
+     "x": 1,
+     "y": -0.49,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "EEM": {
+     "x": 1,
+     "y": -0.31,
+     "quad": "blue",
+     "pos": "exact"
+    }
+   }
+  },
+  {
+   "date": "2026-10-21",
+   "as_of_ct": "2026-10-21 ~8:47 CT",
+   "note": "Exact accessibility-label values (2 decimals) for all 33 tickers, matched by order; NVDA, ANET, EEM confirmed by hover tooltip.",
+   "points": {
+    "NVDA": {
+     "x": -1,
+     "y": -0.34,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "INTU": {
+     "x": 0.44,
+     "y": 0.5,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "SHOP": {
+     "x": -1,
+     "y": -0.6,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "QQQ": {
+     "x": -1,
+     "y": 0.45,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SMH": {
+     "x": -0.32,
+     "y": 0.49,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "SOXX": {
+     "x": -0.51,
+     "y": -0.26,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "SOXL": {
+     "x": -1,
+     "y": 0.24,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AVGO": {
+     "x": -0.51,
+     "y": 0.28,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "MU": {
+     "x": -0.64,
+     "y": 0.63,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "TSM": {
+     "x": 0.22,
+     "y": -0.24,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ASML": {
+     "x": -0.58,
+     "y": -0.08,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AMD": {
+     "x": -0.06,
+     "y": -0.13,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "LRCX": {
+     "x": -0.28,
+     "y": -0.13,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "AMAT": {
+     "x": -0.24,
+     "y": 0.39,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "KLAC": {
+     "x": 1,
+     "y": 0.13,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ARM": {
+     "x": 0.67,
+     "y": -0.16,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "CRDO": {
+     "x": 1,
+     "y": -0.05,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "MRVL": {
+     "x": 1,
+     "y": -0.09,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "ANET": {
+     "x": 1,
+     "y": 0.16,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "PLTR": {
+     "x": 0.38,
+     "y": 0.4,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "ORCL": {
+     "x": 1,
+     "y": 0.24,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "META": {
+     "x": 0.7,
+     "y": 0.75,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "MSFT": {
+     "x": 0.82,
+     "y": 0.87,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "AAPL": {
+     "x": -1,
+     "y": 0.25,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "AMZN": {
+     "x": 0.44,
+     "y": 0.73,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "GOOGL": {
+     "x": 0.07,
+     "y": -0.51,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "TSLA": {
+     "x": 1,
+     "y": 0.3,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "NFLX": {
+     "x": -1,
+     "y": -0.99,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "APP": {
+     "x": -1,
+     "y": -0.24,
+     "quad": "red",
+     "pos": "exact"
+    },
+    "DDOG": {
+     "x": 0.73,
+     "y": 0.95,
+     "quad": "green",
+     "pos": "exact"
+    },
+    "EWT": {
+     "x": -0.32,
+     "y": 0.61,
+     "quad": "orange",
+     "pos": "exact"
+    },
+    "EWY": {
+     "x": 1,
+     "y": -0.38,
+     "quad": "blue",
+     "pos": "exact"
+    },
+    "EEM": {
+     "x": 1,
+     "y": -0.26,
+     "quad": "blue",
+     "pos": "exact"
+    }
+   }
+  }
+ ]
+}
