@@ -1,0 +1,37 @@
+{
+  "as_of": "2026-10-14 2:09 PM CT (live)",
+  "SPX": {
+    "last": 7701.64,
+    "breakdown": 7750,
+    "upside_trend": 7850,
+    "wiz_target": 7000
+  },
+  "VIX": {
+    "last": 17.22
+  },
+  "MU": {
+    "last": 920.89,
+    "sma50": 981.98,
+    "prev_close": 953.19
+  },
+  "SOXX": {
+    "last": 518.58,
+    "prev_close": 543.9
+  },
+  "QQQ": {
+    "last": 727.11,
+    "prev_close": 743.57
+  },
+  "TLT": {
+    "last": 78.95,
+    "ema21": 78.91
+  },
+  "TBT": {
+    "last": 41.1,
+    "ema21": 41.25
+  },
+  "MOVE": {
+    "last": 101.09,
+    "as_of": "2026-10-13 3:17 PM CT"
+  }
+}

@@ -1,0 +1,1290 @@
+{
+ "schema": "robotics-v1",
+ "updated": "2026-10-05",
+ "article": {
+  "title": "Ex Machina: The Next Phase of AI Is Physical",
+  "author": "Andrew Gilbert Almeida",
+  "outlet": "Drews Capital \u00b7 OptionsHawk",
+  "date": "2026-10-05",
+  "date_label": "Oct 5, 2026",
+  "url": "https://optionshawk.com/ex-machina-the-next-phase-of-ai-is-physical/",
+  "access": "free"
+ },
+ "options_flow": {
+  "tickers": [
+   "ALGM",
+   "FLEX",
+   "QCOM",
+   "SYM",
+   "TER",
+   "TXN"
+  ],
+  "oi_as_of": "Oct 2 close"
+ },
+ "highlights": [
+  {
+   "ticker": "BOT",
+   "text": "Teased up 10% Oct 5; closed +8.5% at ~$31.81 on a wedge breakout, heaviest volume since July"
+  }
+ ],
+ "prices": {
+  "status": "not_on_board",
+  "note": "No live quotes: update_board.py has no quote pattern and candles_cache.json does not cover these names."
+ },
+ "advisory": "Research list from the article. Advisory only \u2014 not an order ticket.",
+ "sections": [
+  {
+   "id": "the-names",
+   "title": "The Names",
+   "subtitle": "Author's summary list",
+   "groups": [
+    {
+     "label": "Models & compute",
+     "names": [
+      {
+       "ticker": "NVDA",
+       "name": "NVIDIA",
+       "listing": "US",
+       "private": false,
+       "note": "Jetson Thor + GR00T; VLA models / synthetic motion",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "GOOGL",
+       "name": "Alphabet",
+       "listing": "US",
+       "private": false,
+       "note": "VLA models / synthetic motion data",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "QCOM",
+       "name": "Qualcomm",
+       "listing": "US",
+       "private": false,
+       "note": "Figure / Neura / KUKA wins; $8B FY29 target",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      }
+     ]
+    },
+    {
+     "label": "Robot makers",
+     "names": [
+      {
+       "ticker": "CCXI",
+       "name": "Agility Robotics SPAC",
+       "listing": "US",
+       "private": false,
+       "note": "Agility SPAC, $2.5B pre-money; -38% from July high $19.69",
+       "badges": [
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": false
+      },
+      {
+       "ticker": "BOT",
+       "name": "RoboStrategy (closed-end fund)",
+       "listing": "US",
+       "private": false,
+       "note": "Closed-end fund: Standard Bots 31.7%, Dyna 15%, Apptronik 14.4%, Figure 13.9%, Dexmate 9.3%",
+       "badges": [
+        {
+         "kind": "hot",
+         "text": "Teased up 10% Oct 5 \u00b7 closed +8.5% wedge breakout"
+        }
+       ],
+       "options_flow": false
+      },
+      {
+       "ticker": "TSLA",
+       "name": "Tesla (Optimus)",
+       "listing": "US",
+       "private": false,
+       "note": "Optimus, 1M units/yr plan; Robotaxi",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "XPEV",
+       "name": "XPeng",
+       "listing": "US",
+       "private": false,
+       "note": "$900M robot-unit financing; Iron humanoid",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Motion",
+     "names": [
+      {
+       "ticker": "RRX",
+       "name": "Regal Rexnord (Kollmorgen)",
+       "listing": "US",
+       "private": false,
+       "note": "~$40M humanoid orders; funnel >$200M",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "TKR",
+       "name": "Timken",
+       "listing": "US",
+       "private": false,
+       "note": "Humanoid pipeline >$100M",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "NOVT",
+       "name": "Novanta (ATI)",
+       "listing": "US",
+       "private": false,
+       "note": "ATI force sensors + servo drives",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Sensing & vision",
+     "names": [
+      {
+       "ticker": "HSAI",
+       "name": "Hesai Group",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics LiDAR Q2 +193%",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "CGNX",
+       "name": "Cognex",
+       "listing": "US",
+       "private": false,
+       "note": "~$500M RealSense deal; machine vision",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "OUST",
+       "name": "Ouster",
+       "listing": "US",
+       "private": false,
+       "note": "LiDAR; Stereolabs",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "VPG",
+       "name": "Vishay Precision Group",
+       "listing": "US",
+       "private": false,
+       "note": "Strain gauges",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "ALGM",
+       "name": "Allegro MicroSystems",
+       "listing": "US",
+       "private": false,
+       "note": "Humanoid sensors",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      }
+     ]
+    },
+    {
+     "label": "Chips",
+     "names": [
+      {
+       "ticker": "TXN",
+       "name": "Texas Instruments",
+       "listing": "US",
+       "private": false,
+       "note": "~$1,000/robot content",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "ON",
+       "name": "onsemi",
+       "listing": "US",
+       "private": false,
+       "note": "~$900/robot content",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "NXPI",
+       "name": "NXP Semiconductors",
+       "listing": "US",
+       "private": false,
+       "note": "Chips & compute name",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "ADI",
+       "name": "Analog Devices",
+       "listing": "US",
+       "private": false,
+       "note": "Chips & compute name",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "AMBA",
+       "name": "Ambarella",
+       "listing": "US",
+       "private": false,
+       "note": "15+ robotics design wins",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Building & materials",
+     "names": [
+      {
+       "ticker": "JBL",
+       "name": "Jabil",
+       "listing": "US",
+       "private": false,
+       "note": "Manufactures Apptronik Apollo",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "FLEX",
+       "name": "Flex",
+       "listing": "US",
+       "private": false,
+       "note": "Cobots / contract manufacturing",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "MP",
+       "name": "MP Materials",
+       "listing": "US",
+       "private": false,
+       "note": "Finished magnets in Q4",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "USAR",
+       "name": "USA Rare Earth",
+       "listing": "US",
+       "private": false,
+       "note": "Magnets by year-end",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Already earning",
+     "names": [
+      {
+       "ticker": "ISRG",
+       "name": "Intuitive Surgical",
+       "listing": "US",
+       "private": false,
+       "note": "Q2 rev +19%",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "SYM",
+       "name": "Symbotic",
+       "listing": "US",
+       "private": false,
+       "note": "Warehouse automation",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        },
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "TER",
+       "name": "Teradyne",
+       "listing": "US",
+       "private": false,
+       "note": "Universal Robots, MiR",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "PONY",
+       "name": "Pony AI",
+       "listing": "US",
+       "private": false,
+       "note": "Robotaxis",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "AVAV",
+       "name": "AeroVironment",
+       "listing": "US",
+       "private": false,
+       "note": "Drones",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "CAT",
+       "name": "Caterpillar",
+       "listing": "US",
+       "private": false,
+       "note": "690 autonomous mining trucks",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "options-flow",
+   "title": "Options Flow",
+   "subtitle": "Open interest as of Oct 2 close",
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "QCOM",
+       "name": "Qualcomm",
+       "listing": "US",
+       "private": false,
+       "note": "Figure / Neura / KUKA wins; $8B FY29 target",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "FLEX",
+       "name": "Flex",
+       "listing": "US",
+       "private": false,
+       "note": "Cobots / contract manufacturing",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "TXN",
+       "name": "Texas Instruments",
+       "listing": "US",
+       "private": false,
+       "note": "~$1,000/robot content",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "ALGM",
+       "name": "Allegro MicroSystems",
+       "listing": "US",
+       "private": false,
+       "note": "Humanoid sensors",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "TER",
+       "name": "Teradyne",
+       "listing": "US",
+       "private": false,
+       "note": "Universal Robots, MiR",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "SYM",
+       "name": "Symbotic",
+       "listing": "US",
+       "private": false,
+       "note": "Warehouse automation",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        },
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "charts",
+   "title": "Charts in Article",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "BOT",
+       "name": "RoboStrategy (closed-end fund)",
+       "listing": "US",
+       "private": false,
+       "note": "Wedge breakout Oct 5; closed +8.5% at ~$31.81 on heaviest volume since July",
+       "badges": [
+        {
+         "kind": "hot",
+         "text": "Teased up 10% Oct 5 \u00b7 closed +8.5% wedge breakout"
+        }
+       ],
+       "options_flow": false
+      },
+      {
+       "ticker": "SYM",
+       "name": "Symbotic",
+       "listing": "US",
+       "private": false,
+       "note": "Chart featured in article",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        },
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "CCXI",
+       "name": "Agility Robotics SPAC",
+       "listing": "US",
+       "private": false,
+       "note": "Pulled back 38% from July high of $19.69",
+       "badges": [
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "title": "Intro / Setup",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "TSLA",
+       "name": "Tesla (Optimus)",
+       "listing": "US",
+       "private": false,
+       "note": "Optimus: 1M units/yr plan",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "NVDA",
+       "name": "NVIDIA",
+       "listing": "US",
+       "private": false,
+       "note": "VLA models / synthetic motion",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "GOOGL",
+       "name": "Alphabet",
+       "listing": "US",
+       "private": false,
+       "note": "VLA models / synthetic motion",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deals",
+   "title": "Deals & Listings",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "CCXI",
+       "name": "Agility Robotics SPAC",
+       "listing": "US",
+       "private": false,
+       "note": "Agility Robotics SPAC, $2.5B pre-money",
+       "badges": [
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": false
+      },
+      {
+       "ticker": "XPEV",
+       "name": "XPeng",
+       "listing": "US",
+       "private": false,
+       "note": "$900M robot-unit financing",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "CGNX",
+       "name": "Cognex",
+       "listing": "US",
+       "private": false,
+       "note": "~$500M RealSense deal",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "PTC",
+       "name": "PTC",
+       "listing": "US",
+       "private": false,
+       "note": "Schneider Electric deal: $205/share, ~$22.6B",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bottlenecks",
+   "title": "Bottlenecks",
+   "subtitle": "Screws, reducers, magnets, sensors",
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "MP",
+       "name": "MP Materials",
+       "listing": "US",
+       "private": false,
+       "note": "Finished magnets in Q4",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "USAR",
+       "name": "USA Rare Earth",
+       "listing": "US",
+       "private": false,
+       "note": "Magnets by year-end",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "NOVT",
+       "name": "Novanta (ATI)",
+       "listing": "US",
+       "private": false,
+       "note": "ATI force sensors",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "VPG",
+       "name": "Vishay Precision Group",
+       "listing": "US",
+       "private": false,
+       "note": "Strain gauges",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "motion",
+   "title": "Picks & Shovels: Motion",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "RRX",
+       "name": "Regal Rexnord (Kollmorgen)",
+       "listing": "US",
+       "private": false,
+       "note": "Kollmorgen: ~$40M humanoid orders, funnel >$200M",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "TKR",
+       "name": "Timken",
+       "listing": "US",
+       "private": false,
+       "note": "Humanoid pipeline >$100M",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "NOVT",
+       "name": "Novanta (ATI)",
+       "listing": "US",
+       "private": false,
+       "note": "Servo drives",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sensing",
+   "title": "Sensing & Vision",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "HSAI",
+       "name": "Hesai Group",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics LiDAR Q2 +193%",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "OUST",
+       "name": "Ouster",
+       "listing": "US",
+       "private": false,
+       "note": "Stereolabs",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "CGNX",
+       "name": "Cognex",
+       "listing": "US",
+       "private": false,
+       "note": "Machine vision",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "VPG",
+       "name": "Vishay Precision Group",
+       "listing": "US",
+       "private": false,
+       "note": "Strain gauges / force sensing",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "ALGM",
+       "name": "Allegro MicroSystems",
+       "listing": "US",
+       "private": false,
+       "note": "Humanoid sensors",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chips",
+   "title": "Chips & Compute",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "NVDA",
+       "name": "NVIDIA",
+       "listing": "US",
+       "private": false,
+       "note": "Jetson Thor, GR00T",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "QCOM",
+       "name": "Qualcomm",
+       "listing": "US",
+       "private": false,
+       "note": "Figure / Neura / KUKA; $8B FY29 target",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "AMBA",
+       "name": "Ambarella",
+       "listing": "US",
+       "private": false,
+       "note": "15+ design wins",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "TXN",
+       "name": "Texas Instruments",
+       "listing": "US",
+       "private": false,
+       "note": "~$1,000/robot content",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "ON",
+       "name": "onsemi",
+       "listing": "US",
+       "private": false,
+       "note": "~$900/robot content",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "NXPI",
+       "name": "NXP Semiconductors",
+       "listing": "US",
+       "private": false,
+       "note": "Chips & compute name",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "ADI",
+       "name": "Analog Devices",
+       "listing": "US",
+       "private": false,
+       "note": "Chips & compute name",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "MU",
+       "name": "Micron",
+       "listing": "US",
+       "private": false,
+       "note": "10x memory vs an L2+ car",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "building",
+   "title": "Building Them",
+   "subtitle": "Contract manufacturing & supply",
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "JBL",
+       "name": "Jabil",
+       "listing": "US",
+       "private": false,
+       "note": "Manufactures Apptronik Apollo",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "FLEX",
+       "name": "Flex",
+       "listing": "US",
+       "private": false,
+       "note": "Cobots",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "MGA",
+       "name": "Magna International",
+       "listing": "US",
+       "private": false,
+       "note": "Contract manufacturing for Serve",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "makers",
+   "title": "Robot Makers",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "CCXI",
+       "name": "Agility Robotics SPAC",
+       "listing": "US",
+       "private": false,
+       "note": "Agility Robotics",
+       "badges": [
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": false
+      },
+      {
+       "ticker": "BOT",
+       "name": "RoboStrategy (closed-end fund)",
+       "listing": "US",
+       "private": false,
+       "note": "Closed-end fund: Standard Bots 31.7%, Dyna 15%, Apptronik 14.4%, Figure 13.9%, Dexmate 9.3%",
+       "badges": [
+        {
+         "kind": "hot",
+         "text": "Teased up 10% Oct 5 \u00b7 closed +8.5% wedge breakout"
+        }
+       ],
+       "options_flow": false
+      },
+      {
+       "ticker": "TSLA",
+       "name": "Tesla (Optimus)",
+       "listing": "US",
+       "private": false,
+       "note": "Optimus",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "XPEV",
+       "name": "XPeng",
+       "listing": "US",
+       "private": false,
+       "note": "Iron humanoid; robot-unit financing",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "MBLY",
+       "name": "Mobileye",
+       "listing": "US",
+       "private": false,
+       "note": "Mentee Robotics, $900M",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "earning",
+   "title": "Where Robots Already Earn",
+   "subtitle": null,
+   "groups": [
+    {
+     "label": "Industrial",
+     "names": [
+      {
+       "ticker": "TER",
+       "name": "Teradyne",
+       "listing": "US",
+       "private": false,
+       "note": "Universal Robots, MiR",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "ROK",
+       "name": "Rockwell Automation",
+       "listing": "US",
+       "private": false,
+       "note": "OTTO mobile robots",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "LECO",
+       "name": "Lincoln Electric",
+       "listing": "US",
+       "private": false,
+       "note": "Robotic welding",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Warehouses",
+     "names": [
+      {
+       "ticker": "SYM",
+       "name": "Symbotic",
+       "listing": "US",
+       "private": false,
+       "note": "Warehouse automation",
+       "badges": [
+        {
+         "kind": "flow",
+         "text": "Options flow \u00b7 OI 10/2"
+        },
+        {
+         "kind": "chart",
+         "text": "Chart in article"
+        }
+       ],
+       "options_flow": true
+      },
+      {
+       "ticker": "AMZN",
+       "name": "Amazon",
+       "listing": "US",
+       "private": false,
+       "note": "Warehouse robotics",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "GXO",
+       "name": "GXO Logistics",
+       "listing": "US",
+       "private": false,
+       "note": "Logistics automation",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Surgery",
+     "names": [
+      {
+       "ticker": "ISRG",
+       "name": "Intuitive Surgical",
+       "listing": "US",
+       "private": false,
+       "note": "Q2 rev +19%",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "PRCT",
+       "name": "PROCEPT BioRobotics",
+       "listing": "US",
+       "private": false,
+       "note": "Surgical robotics",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "SYK",
+       "name": "Stryker",
+       "listing": "US",
+       "private": false,
+       "note": "Mako",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "MDT",
+       "name": "Medtronic",
+       "listing": "US",
+       "private": false,
+       "note": "Hugo",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "JNJ",
+       "name": "Johnson & Johnson",
+       "listing": "US",
+       "private": false,
+       "note": "Ottava",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Robotaxis & trucks",
+     "names": [
+      {
+       "ticker": "PONY",
+       "name": "Pony AI",
+       "listing": "US",
+       "private": false,
+       "note": "Robotaxis",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "WRD",
+       "name": "WeRide",
+       "listing": "US",
+       "private": false,
+       "note": "Robotaxis",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "TSLA",
+       "name": "Tesla (Optimus)",
+       "listing": "US",
+       "private": false,
+       "note": "Robotaxi",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "UBER",
+       "name": "Uber",
+       "listing": "US",
+       "private": false,
+       "note": "AV network",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "AUR",
+       "name": "Aurora Innovation",
+       "listing": "US",
+       "private": false,
+       "note": "Autonomous trucks",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "KDK",
+       "name": "Kodiak AI",
+       "listing": "US",
+       "private": false,
+       "note": "Autonomous trucks",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    },
+    {
+     "label": "Drones & heavy equipment",
+     "names": [
+      {
+       "ticker": "AVAV",
+       "name": "AeroVironment",
+       "listing": "US",
+       "private": false,
+       "note": "Drones",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "ONDS",
+       "name": "Ondas Holdings",
+       "listing": "US",
+       "private": false,
+       "note": "Drones",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "KTOS",
+       "name": "Kratos Defense",
+       "listing": "US",
+       "private": false,
+       "note": "Drones",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "CAT",
+       "name": "Caterpillar",
+       "listing": "US",
+       "private": false,
+       "note": "690 autonomous mining trucks",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "funds",
+   "title": "Funds",
+   "subtitle": "Robotics / humanoid ETFs",
+   "groups": [
+    {
+     "label": null,
+     "names": [
+      {
+       "ticker": "BOTZ",
+       "name": "Global X Robotics & AI ETF",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics / humanoid fund",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "KOID",
+       "name": "KraneShares Humanoid & Embodied Intelligence ETF",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics / humanoid fund",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "HUMN",
+       "name": "Roundhill Humanoid Robotics ETF",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics / humanoid fund",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "BOTT",
+       "name": "Robotics / humanoid ETF",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics / humanoid fund",
+       "badges": [],
+       "options_flow": false
+      },
+      {
+       "ticker": "TORK",
+       "name": "Robotics / humanoid ETF",
+       "listing": "US",
+       "private": false,
+       "note": "Robotics / humanoid fund",
+       "badges": [],
+       "options_flow": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "filter": "US-listed only (offshore and private names removed per user 2026-10-05)"
+}
