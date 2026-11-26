@@ -1,0 +1,1988 @@
+{
+  "week_of": "Mon 2026-11-16 \u2192 Fri 2026-11-20 (America/Chicago) \u2014 score week ends Friday (ISO week runs through Sun Nov 22); today 11/20 is November monthly OpEx; Thanksgiving week next",
+  "iso_week": "2026-W47",
+  "generated": "2026-11-20 13:40 CT (14:40 ET) \u2014 Friday LIVE run",
+  "last_updated": "2026-11-20 14:39 CT",
+  "last_updated_et": "2026-11-20 15:39 ET",
+  "label": "LIVE",
+  "live": true,
+  "composite_blend": {
+    "flow": 0.65,
+    "tech": 0.35,
+    "note": "LOCKED v1: 0.65 flow / 0.35 tech"
+  },
+  "flow_lookback": "3 weeks ending today (Oct 31 \u2192 Nov 20): W1 Oct 31\u2013Nov 8 \u00b7 W2 Nov 9\u201315 \u00b7 W3 Nov 16\u201320 (weekend Featured Radars fold into the prior week)",
+  "scorecard_md": "../2026-W47-Nov16-20.md",
+  "names": [
+    {
+      "rank": 1,
+      "ticker": "PANW",
+      "composite": 77,
+      "flow": 79,
+      "tech": 72,
+      "structure_bias": "mixed (put-sale led + calls)",
+      "put_sale_only": false,
+      "why": "Put sellers into and through the Nov 18 report (beat and raise, Applied Compute deal) plus size Dec'27 / Dec'28 calls in W2 and weekly calls into earnings; the only ranked name with a clean 8/21/200 stack",
+      "confidence": "Med",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$10.2M** \u00b7 Dec 2027 calls bought (2026-11-09); **~$6.5M** \u00b7 Nov 27 (W) calls with buyers into earnings (2026-11-16)",
+        "Hawk recap \u00b7 **~$4M** \u00b7 Dec 2028 ITM put sale (2026-11-10); **~$4M** \u00b7 Dec 2028 upside calls after the put sales (2026-11-11)"
+      ],
+      "technicals_note": "vs EMA8 **$334.96** / EMA21 **$343.57**: **above 8, kiss/above 21** \u00b7 vs 200-MA **$280.44**: **above (~+23%)** \u00b7 weekly RSI **~50** \u00b7 earnings: reported 11/18 AMC (beat + raise; +7.7% on 11/19 per Blitz)",
+      "tech_why": "Strong: vs EMA8 $334.96 / EMA21 $343.57: above 8, kiss/above 21; vs 200-MA $280.44: above (~+23%); weekly RSI ~50.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 344.54,
+        "ema8": 334.957,
+        "ema21": 343.566,
+        "sma200": 280.441,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "MED"
+      ],
+      "net_premium": {
+        "raw": "~$10.2M",
+        "usd": 10200000.0,
+        "source_print": "Hawk recap \u00b7 **~$10.2M** \u00b7 Dec 2027 calls bought (2026-11-09); **~$6.5M** \u00b7 Nov 27 (W) calls with buyers into earnings (2026-11-16)"
+      },
+      "hawk_analysis": "Put sellers into and through the Nov 18 report (beat and raise, Applied Compute deal) plus size Dec'27 / Dec'28 calls in W2 and weekly calls into earnings; the only ranked name with a clean 8/21/200 stack Strong: vs EMA8 $334.96 / EMA21 $343.57: above 8, kiss/above 21; vs 200-MA $280.44: above (~+23%); weekly RSI ~50.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (put-sale led + calls)",
+          "why": "Put sellers into and through the Nov 18 report (beat and raise, Applied Compute deal) plus size Dec'27 / Dec'28 calls in W2 and weekly calls into earnings; the only ranked name with a clean 8/21/200 stack",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$10.2M** \u00b7 Dec 2027 calls bought (2026-11-09); **~$6.5M** \u00b7 Nov 27 (W) calls with buyers into earnings (2026-11-16)",
+            "Hawk recap \u00b7 **~$4M** \u00b7 Dec 2028 ITM put sale (2026-11-10); **~$4M** \u00b7 Dec 2028 upside calls after the put sales (2026-11-11)"
+          ],
+          "net_premium": {
+            "raw": "~$10.2M",
+            "usd": 10200000.0,
+            "source_print": "Hawk recap \u00b7 **~$10.2M** \u00b7 Dec 2027 calls bought (2026-11-09); **~$6.5M** \u00b7 Nov 27 (W) calls with buyers into earnings (2026-11-16)"
+          },
+          "confidence": "Med"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "not_on_desk",
+          "summary": "OI / Volland not on desk.",
+          "as_of": null,
+          "note": "Placeholder \u2014 pull from volland/notes/singles, dossiers/TEAM when present. Label Volland (not GEX).",
+          "source": null,
+          "monthly_opex": {
+            "status": "not_on_desk",
+            "label": "Monthly OpEx",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          },
+          "all_expiry": {
+            "status": "not_on_desk",
+            "label": "All expiry",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Strong: vs EMA8 $334.96 / EMA21 $343.57: above 8, kiss/above 21; vs 200-MA $280.44: above (~+23%); weekly RSI ~50.",
+          "technicals_note": "vs EMA8 **$334.96** / EMA21 **$343.57**: **above 8, kiss/above 21** \u00b7 vs 200-MA **$280.44**: **above (~+23%)** \u00b7 weekly RSI **~50** \u00b7 earnings: reported 11/18 AMC (beat + raise; +7.7% on 11/19 per Blitz)",
+          "levels": {
+            "spot": 344.54,
+            "ema8": 334.957,
+            "ema21": 343.566,
+            "sma200": 280.441,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 72
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap \u00b7 **~$10.2M** \u00b7 Dec 2027 calls bought (2026-11-09); **~$6.5M** \u00b7 Nov 27 (W) calls with buyers into earnings (2026-11-16)",
+      "trade_lines": [],
+      "vol_oi": null
+    },
+    {
+      "rank": 2,
+      "ticker": "MSFT",
+      "composite": 70,
+      "flow": 84,
+      "tech": 45,
+      "structure_bias": "calls (put-sale support)",
+      "put_sale_only": false,
+      "why": "Hawk + Drew both had the Feb'27 call buy (Nov 4). W3 call buying picked up: Jan'28, Feb'27, and Dec'27 calls, plus March calls adjusting the November calls. Feb'27 put sale alongside",
+      "confidence": "Med",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$10M** \u00b7 Jan 2028 calls bought (2026-11-19); **~$1.5M** \u00b7 Dec 2027 calls (2026-11-19); **~$1.8M** \u00b7 Feb 2027 put sale (2026-11-19)",
+        "Hawk recap + Drew X \u00b7 **~$6M** \u00b7 Feb 2027 calls bought into ATH (2026-11-04); **~$2M** \u00b7 Feb 2027 calls (2026-11-17)"
+      ],
+      "technicals_note": "vs EMA8 **$514.09** / EMA21 **$521.42**: **below 8, below 21** \u00b7 vs 200-MA **$443.18**: **above (~+10%)** \u00b7 weekly RSI **~62** \u00b7 earnings: unknown",
+      "tech_why": "Mixed: vs EMA8 $514.09 / EMA21 $521.42: below 8, below 21; vs 200-MA $443.18: above (~+10%); weekly RSI ~62.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 486.93,
+        "ema8": 514.091,
+        "ema21": 521.421,
+        "sma200": 443.178,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "MED"
+      ],
+      "net_premium": {
+        "raw": "~$10M",
+        "usd": 10000000.0,
+        "source_print": "Hawk recap \u00b7 **~$10M** \u00b7 Jan 2028 calls bought (2026-11-19); **~$1.5M** \u00b7 Dec 2027 calls (2026-11-19); **~$1.8M** \u00b7 Feb 2027 put sale (2026-11-19)"
+      },
+      "hawk_analysis": "Hawk + Drew both had the Feb'27 call buy (Nov 4). W3 call buying picked up: Jan'28, Feb'27, and Dec'27 calls, plus March calls adjusting the November calls. Feb'27 put sale alongside Mixed: vs EMA8 $514.09 / EMA21 $521.42: below 8, below 21; vs 200-MA $443.18: above (~+10%); weekly RSI ~62.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "calls (put-sale support)",
+          "why": "Hawk + Drew both had the Feb'27 call buy (Nov 4). W3 call buying picked up: Jan'28, Feb'27, and Dec'27 calls, plus March calls adjusting the November calls. Feb'27 put sale alongside",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$10M** \u00b7 Jan 2028 calls bought (2026-11-19); **~$1.5M** \u00b7 Dec 2027 calls (2026-11-19); **~$1.8M** \u00b7 Feb 2027 put sale (2026-11-19)",
+            "Hawk recap + Drew X \u00b7 **~$6M** \u00b7 Feb 2027 calls bought into ATH (2026-11-04); **~$2M** \u00b7 Feb 2027 calls (2026-11-17)"
+          ],
+          "net_premium": {
+            "raw": "~$10M",
+            "usd": 10000000.0,
+            "source_print": "Hawk recap \u00b7 **~$10M** \u00b7 Jan 2028 calls bought (2026-11-19); **~$1.5M** \u00b7 Dec 2027 calls (2026-11-19); **~$1.8M** \u00b7 Feb 2027 put sale (2026-11-19)"
+          },
+          "confidence": "Med"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "from_volland",
+          "summary": "Monthly OpEx + All-expiry Volland reads on desk.",
+          "as_of": "2026-09-30 09:17\u201309:20 CT",
+          "note": "VET_2026-09-30_MSFT.md; New Widget Cancel-only",
+          "source": "/workspace/volland/2026-09-30/scorecard/MSFT.json",
+          "monthly_opex": {
+            "status": "from_volland",
+            "label": "Monthly OpEx",
+            "expiry": "2026-10-16",
+            "walls": "550 (\u2212$21.51M)",
+            "floors": "500 (+$12.47M)",
+            "pins": "510 (\u2212$19.34M)",
+            "dealer_positioning": "550 dominant Oct short-gamma/vanna ceiling; path magnets 520 then 540; post-break magnet 555.",
+            "summary": "Monthly OpEx gamma/vanna on desk.",
+            "gamma": "+500 $12.47M; +515 $3.71M; +520 $2.81M; +540 $1.99M | \u2212550 $21.51M; \u2212510 $19.34M; \u2212530 $3.12M; \u2212570 $2.71M",
+            "vanna": "+510 $6.16M; +555 $2.46M; +540 $1.60M | \u2212550 $24.55M; \u2212500 $8.36M; \u2212570 $4.60M",
+            "gamma_levels": {
+              "pos": [
+                {
+                  "strike": 500.0,
+                  "usd": 12473030.24,
+                  "display": "$12.47M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 515.0,
+                  "usd": 3713228.73,
+                  "display": "$3.71M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 520.0,
+                  "usd": 2806290.73,
+                  "display": "$2.81M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 540.0,
+                  "usd": 1989752.69,
+                  "display": "$1.99M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 550.0,
+                  "usd": 21511154.69,
+                  "display": "$21.51M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 510.0,
+                  "usd": 19336326.64,
+                  "display": "$19.34M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 530.0,
+                  "usd": 3123474.96,
+                  "display": "$3.12M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 570.0,
+                  "usd": 2710371.25,
+                  "display": "$2.71M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "vanna_levels": {
+              "pos": [
+                {
+                  "strike": 510.0,
+                  "usd": 6164437.11,
+                  "display": "$6.16M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 555.0,
+                  "usd": 2464928.05,
+                  "display": "$2.46M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 540.0,
+                  "usd": 1595878.71,
+                  "display": "$1.60M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 550.0,
+                  "usd": 24551635.41,
+                  "display": "$24.55M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 500.0,
+                  "usd": 8364266.1,
+                  "display": "$8.36M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 570.0,
+                  "usd": 4600850.75,
+                  "display": "$4.60M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "gamma_pos": [
+              {
+                "strike": 500.0,
+                "usd": 12473030.24,
+                "display": "$12.47M",
+                "sign": "+"
+              },
+              {
+                "strike": 515.0,
+                "usd": 3713228.73,
+                "display": "$3.71M",
+                "sign": "+"
+              },
+              {
+                "strike": 520.0,
+                "usd": 2806290.73,
+                "display": "$2.81M",
+                "sign": "+"
+              },
+              {
+                "strike": 540.0,
+                "usd": 1989752.69,
+                "display": "$1.99M",
+                "sign": "+"
+              }
+            ],
+            "gamma_neg": [
+              {
+                "strike": 550.0,
+                "usd": 21511154.69,
+                "display": "$21.51M",
+                "sign": "-"
+              },
+              {
+                "strike": 510.0,
+                "usd": 19336326.64,
+                "display": "$19.34M",
+                "sign": "-"
+              },
+              {
+                "strike": 530.0,
+                "usd": 3123474.96,
+                "display": "$3.12M",
+                "sign": "-"
+              },
+              {
+                "strike": 570.0,
+                "usd": 2710371.25,
+                "display": "$2.71M",
+                "sign": "-"
+              }
+            ],
+            "vanna_pos": [
+              {
+                "strike": 510.0,
+                "usd": 6164437.11,
+                "display": "$6.16M",
+                "sign": "+"
+              },
+              {
+                "strike": 555.0,
+                "usd": 2464928.05,
+                "display": "$2.46M",
+                "sign": "+"
+              },
+              {
+                "strike": 540.0,
+                "usd": 1595878.71,
+                "display": "$1.60M",
+                "sign": "+"
+              }
+            ],
+            "vanna_neg": [
+              {
+                "strike": 550.0,
+                "usd": 24551635.41,
+                "display": "$24.55M",
+                "sign": "-"
+              },
+              {
+                "strike": 500.0,
+                "usd": 8364266.1,
+                "display": "$8.36M",
+                "sign": "-"
+              },
+              {
+                "strike": 570.0,
+                "usd": 4600850.75,
+                "display": "$4.60M",
+                "sign": "-"
+              }
+            ],
+            "note": "pin field = largest nearby gamma feature (510 Oct is large neg); call_wall/put_floor inferred from \u00b1gamma extremes vs spot"
+          },
+          "all_expiry": {
+            "status": "from_volland",
+            "label": "All expiry",
+            "expiry": "All expirations",
+            "walls": "550 (\u2212$29.37M)",
+            "floors": "525 (+$26.61M)",
+            "pins": "520 (+$18.11M)",
+            "dealer_positioning": "550 all-exp short-gamma/vanna ceiling; positive gamma magnets 525/520 near then above prior spot.",
+            "summary": "All expiry gamma/vanna on desk.",
+            "gamma": "+525 $26.61M; +520 $18.11M; +517.5 $4.44M | \u2212550 $29.37M; \u2212510 $21.93M; \u2212625 $21.50M",
+            "vanna": "+420 $10.09M; +400 $7.72M; +510 $7.15M | \u2212625 $70.40M; \u2212550 $32.46M; \u2212600 $13.94M",
+            "gamma_levels": {
+              "pos": [
+                {
+                  "strike": 525.0,
+                  "usd": 26608533.81,
+                  "display": "$26.61M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 520.0,
+                  "usd": 18111737.36,
+                  "display": "$18.11M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 517.5,
+                  "usd": 4436373.78,
+                  "display": "$4.44M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 550.0,
+                  "usd": 29374272.82,
+                  "display": "$29.37M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 510.0,
+                  "usd": 21927492.66,
+                  "display": "$21.93M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 625.0,
+                  "usd": 21502611.81,
+                  "display": "$21.50M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "vanna_levels": {
+              "pos": [
+                {
+                  "strike": 420.0,
+                  "usd": 10093422.78,
+                  "display": "$10.09M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 400.0,
+                  "usd": 7720633.4,
+                  "display": "$7.72M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 510.0,
+                  "usd": 7148006.58,
+                  "display": "$7.15M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 625.0,
+                  "usd": 70395751.69,
+                  "display": "$70.40M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 550.0,
+                  "usd": 32458951.72,
+                  "display": "$32.46M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 600.0,
+                  "usd": 13938748.56,
+                  "display": "$13.94M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "gamma_pos": [
+              {
+                "strike": 525.0,
+                "usd": 26608533.81,
+                "display": "$26.61M",
+                "sign": "+"
+              },
+              {
+                "strike": 520.0,
+                "usd": 18111737.36,
+                "display": "$18.11M",
+                "sign": "+"
+              },
+              {
+                "strike": 517.5,
+                "usd": 4436373.78,
+                "display": "$4.44M",
+                "sign": "+"
+              }
+            ],
+            "gamma_neg": [
+              {
+                "strike": 550.0,
+                "usd": 29374272.82,
+                "display": "$29.37M",
+                "sign": "-"
+              },
+              {
+                "strike": 510.0,
+                "usd": 21927492.66,
+                "display": "$21.93M",
+                "sign": "-"
+              },
+              {
+                "strike": 625.0,
+                "usd": 21502611.81,
+                "display": "$21.50M",
+                "sign": "-"
+              }
+            ],
+            "vanna_pos": [
+              {
+                "strike": 420.0,
+                "usd": 10093422.78,
+                "display": "$10.09M",
+                "sign": "+"
+              },
+              {
+                "strike": 400.0,
+                "usd": 7720633.4,
+                "display": "$7.72M",
+                "sign": "+"
+              },
+              {
+                "strike": 510.0,
+                "usd": 7148006.58,
+                "display": "$7.15M",
+                "sign": "+"
+              }
+            ],
+            "vanna_neg": [
+              {
+                "strike": 625.0,
+                "usd": 70395751.69,
+                "display": "$70.40M",
+                "sign": "-"
+              },
+              {
+                "strike": 550.0,
+                "usd": 32458951.72,
+                "display": "$32.46M",
+                "sign": "-"
+              },
+              {
+                "strike": 600.0,
+                "usd": 13938748.56,
+                "display": "$13.94M",
+                "sign": "-"
+              }
+            ],
+            "note": "pin field = largest nearby gamma feature (510 Oct is large neg); call_wall/put_floor inferred from \u00b1gamma extremes vs spot"
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Mixed: vs EMA8 $514.09 / EMA21 $521.42: below 8, below 21; vs 200-MA $443.18: above (~+10%); weekly RSI ~62.",
+          "technicals_note": "vs EMA8 **$514.09** / EMA21 **$521.42**: **below 8, below 21** \u00b7 vs 200-MA **$443.18**: **above (~+10%)** \u00b7 weekly RSI **~62** \u00b7 earnings: unknown",
+          "levels": {
+            "spot": 486.93,
+            "ema8": 514.091,
+            "ema21": 521.421,
+            "sma200": 443.178,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 45
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap \u00b7 **~$10M** \u00b7 Jan 2028 calls bought (2026-11-19); **~$1.5M** \u00b7 Dec 2027 calls (2026-11-19); **~$1.8M** \u00b7 Feb 2027 put sale (2026-11-19)",
+      "trade_lines": [],
+      "vol_oi": null
+    },
+    {
+      "rank": 3,
+      "ticker": "NVDA",
+      "composite": 64,
+      "flow": 95,
+      "tech": 5,
+      "structure_bias": "mixed (calls into weakness vs put buys)",
+      "put_sale_only": false,
+      "why": "Most rows on the box (33 across the window, 20 in W2): size Feb call buys and adjustments into the slide. Hawk X Dec 31 (W) put-sale/call-spread combo (Nov 18) and Feb'27 calls after the Nov 17 beat. CEO exit + SEC probe headlines (Blitz 11/18); price under every MA",
+      "confidence": "Low",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$15M** \u00b7 Feb calls bought early weakness (2026-11-12); **~$8M** \u00b7 Dec calls into weakness (2026-11-09)",
+        "Hawk recap \u00b7 Feb 2027 calls bought (2026-11-17, $ n/s); Hawk X \u00b7 Dec 31 (W) put sale vs call spreads, small net debit (2026-11-18); bearish: Jan put ratios bought (2026-11-10, $ n/s)"
+      ],
+      "technicals_note": "vs EMA8 **$160.52** / EMA21 **$180.71**: **below 8, below 21** \u00b7 vs 200-MA **$203.58**: **below (~\u221236%)** \u00b7 weekly RSI **~32** \u00b7 earnings: reported 11/17 AMC (beat + upside guide per Blitz 11/18)",
+      "tech_why": "Weak: vs EMA8 $160.52 / EMA21 $180.71: below 8, below 21; vs 200-MA $203.58: below (~\u221236%); weekly RSI ~32.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 129.48,
+        "ema8": 160.522,
+        "ema21": 180.712,
+        "sma200": 203.577,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "LOW"
+      ],
+      "net_premium": {
+        "raw": "~$15M",
+        "usd": 15000000.0,
+        "source_print": "Hawk recap \u00b7 **~$15M** \u00b7 Feb calls bought early weakness (2026-11-12); **~$8M** \u00b7 Dec calls into weakness (2026-11-09)"
+      },
+      "hawk_analysis": "Most rows on the box (33 across the window, 20 in W2): size Feb call buys and adjustments into the slide. Hawk X Dec 31 (W) put-sale/call-spread combo (Nov 18) and Feb'27 calls after the Nov 17 beat. CEO exit + SEC probe headlines (Blitz 11/18); price under every MA Weak: vs EMA8 $160.52 / EMA21 $180.71: below 8, below 21; vs 200-MA $203.58: below (~\u221236%); weekly RSI ~32.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (calls into weakness vs put buys)",
+          "why": "Most rows on the box (33 across the window, 20 in W2): size Feb call buys and adjustments into the slide. Hawk X Dec 31 (W) put-sale/call-spread combo (Nov 18) and Feb'27 calls after the Nov 17 beat. CEO exit + SEC probe headlines (Blitz 11/18); price under every MA",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$15M** \u00b7 Feb calls bought early weakness (2026-11-12); **~$8M** \u00b7 Dec calls into weakness (2026-11-09)",
+            "Hawk recap \u00b7 Feb 2027 calls bought (2026-11-17, $ n/s); Hawk X \u00b7 Dec 31 (W) put sale vs call spreads, small net debit (2026-11-18); bearish: Jan put ratios bought (2026-11-10, $ n/s)"
+          ],
+          "net_premium": {
+            "raw": "~$15M",
+            "usd": 15000000.0,
+            "source_print": "Hawk recap \u00b7 **~$15M** \u00b7 Feb calls bought early weakness (2026-11-12); **~$8M** \u00b7 Dec calls into weakness (2026-11-09)"
+          },
+          "confidence": "Low"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "not_on_desk",
+          "summary": "OI / Volland not on desk.",
+          "as_of": null,
+          "note": "Placeholder \u2014 pull from volland/notes/singles, dossiers/TEAM when present. Label Volland (not GEX).",
+          "source": null,
+          "monthly_opex": {
+            "status": "not_on_desk",
+            "label": "Monthly OpEx",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          },
+          "all_expiry": {
+            "status": "not_on_desk",
+            "label": "All expiry",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Weak: vs EMA8 $160.52 / EMA21 $180.71: below 8, below 21; vs 200-MA $203.58: below (~\u221236%); weekly RSI ~32.",
+          "technicals_note": "vs EMA8 **$160.52** / EMA21 **$180.71**: **below 8, below 21** \u00b7 vs 200-MA **$203.58**: **below (~\u221236%)** \u00b7 weekly RSI **~32** \u00b7 earnings: reported 11/17 AMC (beat + upside guide per Blitz 11/18)",
+          "levels": {
+            "spot": 129.48,
+            "ema8": 160.522,
+            "ema21": 180.712,
+            "sma200": 203.577,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 5
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap \u00b7 **~$15M** \u00b7 Feb calls bought early weakness (2026-11-12); **~$8M** \u00b7 Dec calls into weakness (2026-11-09)",
+      "trade_lines": [
+        {
+          "kind": "call",
+          "label": "Call strike",
+          "value": 240,
+          "note": "Oct23 (W) $240c"
+        },
+        {
+          "kind": "put",
+          "label": "Put strike",
+          "value": 175,
+          "note": "Dec'27 risk reversal short put"
+        },
+        {
+          "kind": "call",
+          "label": "Call strike",
+          "value": 400,
+          "note": "Dec'27 risk reversal long call"
+        },
+        {
+          "kind": "longput",
+          "label": "Long put",
+          "value": 245,
+          "note": "Sep'27 $245p bought (hedge?)"
+        }
+      ],
+      "vol_oi": {
+        "contract": "NVDA Oct23'26 $240C",
+        "volume": 7079,
+        "oi": 56034,
+        "as_of": "2026-10-09 (RH option quotes, Oct 9 session)"
+      }
+    },
+    {
+      "rank": 4,
+      "ticker": "DELL",
+      "composite": 63,
+      "flow": 92,
+      "tech": 10,
+      "structure_bias": "mixed (calls + put-sale)",
+      "put_sale_only": false,
+      "why": "Steady long-dated call buying every week and stock-replacement buys (8 W3 rows, all bullish or neutral). A $6.4M Sep'27 put sale and Dec'27 put sale came in W2; reports next week (Blitz 11/20)",
+      "confidence": "Med",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$6.4M** \u00b7 Sep 2027 put sale (2026-11-09); **~$2.2M** \u00b7 Dec 2027 calls (2026-11-09); **~$3.4M** \u00b7 Dec 2027 put sale (2026-11-10)",
+        "Hawk recap \u00b7 **~$2.9M** \u00b7 Nov 2027 stock-replacement calls (2026-11-18); **~$2.4M** \u00b7 Aug 2027 calls (2026-11-16); **~$2.9M** \u00b7 Dec 2027 calls (2026-11-11)"
+      ],
+      "technicals_note": "vs EMA8 **$333.67** / EMA21 **$379.98**: **below 8, below 21** \u00b7 vs 200-MA **$347.38**: **below (~\u221220%)** \u00b7 weekly RSI **~42** \u00b7 earnings: **next week** (Thanksgiving week, per Blitz 11/20)",
+      "tech_why": "Weak: vs EMA8 $333.67 / EMA21 $379.98: below 8, below 21; vs 200-MA $347.38: below (~\u221220%); weekly RSI ~42.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 277.9,
+        "ema8": 333.673,
+        "ema21": 379.978,
+        "sma200": 347.381,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "MED"
+      ],
+      "net_premium": {
+        "raw": "~$6.4M",
+        "usd": 6400000.0,
+        "source_print": "Hawk recap \u00b7 **~$6.4M** \u00b7 Sep 2027 put sale (2026-11-09); **~$2.2M** \u00b7 Dec 2027 calls (2026-11-09); **~$3.4M** \u00b7 Dec 2027 put sale (2026-11-10)"
+      },
+      "hawk_analysis": "Steady long-dated call buying every week and stock-replacement buys (8 W3 rows, all bullish or neutral). A $6.4M Sep'27 put sale and Dec'27 put sale came in W2; reports next week (Blitz 11/20) Weak: vs EMA8 $333.67 / EMA21 $379.98: below 8, below 21; vs 200-MA $347.38: below (~\u221220%); weekly RSI ~42.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (calls + put-sale)",
+          "why": "Steady long-dated call buying every week and stock-replacement buys (8 W3 rows, all bullish or neutral). A $6.4M Sep'27 put sale and Dec'27 put sale came in W2; reports next week (Blitz 11/20)",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$6.4M** \u00b7 Sep 2027 put sale (2026-11-09); **~$2.2M** \u00b7 Dec 2027 calls (2026-11-09); **~$3.4M** \u00b7 Dec 2027 put sale (2026-11-10)",
+            "Hawk recap \u00b7 **~$2.9M** \u00b7 Nov 2027 stock-replacement calls (2026-11-18); **~$2.4M** \u00b7 Aug 2027 calls (2026-11-16); **~$2.9M** \u00b7 Dec 2027 calls (2026-11-11)"
+          ],
+          "net_premium": {
+            "raw": "~$6.4M",
+            "usd": 6400000.0,
+            "source_print": "Hawk recap \u00b7 **~$6.4M** \u00b7 Sep 2027 put sale (2026-11-09); **~$2.2M** \u00b7 Dec 2027 calls (2026-11-09); **~$3.4M** \u00b7 Dec 2027 put sale (2026-11-10)"
+          },
+          "confidence": "Med"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "not_on_desk",
+          "summary": "OI / Volland not on desk.",
+          "as_of": null,
+          "note": "Placeholder \u2014 pull from volland/notes/singles, dossiers/TEAM when present. Label Volland (not GEX).",
+          "source": null,
+          "monthly_opex": {
+            "status": "not_on_desk",
+            "label": "Monthly OpEx",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          },
+          "all_expiry": {
+            "status": "not_on_desk",
+            "label": "All expiry",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Weak: vs EMA8 $333.67 / EMA21 $379.98: below 8, below 21; vs 200-MA $347.38: below (~\u221220%); weekly RSI ~42.",
+          "technicals_note": "vs EMA8 **$333.67** / EMA21 **$379.98**: **below 8, below 21** \u00b7 vs 200-MA **$347.38**: **below (~\u221220%)** \u00b7 weekly RSI **~42** \u00b7 earnings: **next week** (Thanksgiving week, per Blitz 11/20)",
+          "levels": {
+            "spot": 277.9,
+            "ema8": 333.673,
+            "ema21": 379.978,
+            "sma200": 347.381,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 10
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap \u00b7 **~$6.4M** \u00b7 Sep 2027 put sale (2026-11-09); **~$2.2M** \u00b7 Dec 2027 calls (2026-11-09); **~$3.4M** \u00b7 Dec 2027 put sale (2026-11-10)",
+      "trade_lines": [],
+      "vol_oi": null
+    },
+    {
+      "rank": 5,
+      "ticker": "AMD",
+      "composite": 61,
+      "flow": 78,
+      "tech": 30,
+      "structure_bias": "mixed (calls + put-sale)",
+      "put_sale_only": false,
+      "why": "$6M Apr'27 calls and weekly put sales (Nov 11), Feb call-spread buyer (Nov 13), W3 weekly calls + Feb call adjustments; sitting on the 200-MA",
+      "confidence": "Med",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$6M** \u00b7 Apr 2027 calls bought (2026-11-11); **~$1.9M** \u00b7 Dec 4 (W) put sale (2026-11-11)",
+        "Hawk recap \u00b7 **~$1M** \u00b7 Dec 24 (W) calls (2026-11-17); Feb calls bought adjusting higher strike (2026-11-19, $ n/s)"
+      ],
+      "technicals_note": "vs EMA8 **$513.10** / EMA21 **$520.90**: **below 8, below 21** \u00b7 vs 200-MA **$428.63**: **kiss/below (~\u22121%)** \u00b7 weekly RSI **~55** \u00b7 earnings: unknown",
+      "tech_why": "Weak: vs EMA8 $513.10 / EMA21 $520.90: below 8, below 21; vs 200-MA $428.63: kiss/below (~\u22121%); weekly RSI ~55.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 424.4,
+        "ema8": 513.103,
+        "ema21": 520.896,
+        "sma200": 428.627,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "MED"
+      ],
+      "net_premium": {
+        "raw": "~$6M",
+        "usd": 6000000.0,
+        "source_print": "Hawk recap \u00b7 **~$6M** \u00b7 Apr 2027 calls bought (2026-11-11); **~$1.9M** \u00b7 Dec 4 (W) put sale (2026-11-11)"
+      },
+      "hawk_analysis": "$6M Apr'27 calls and weekly put sales (Nov 11), Feb call-spread buyer (Nov 13), W3 weekly calls + Feb call adjustments; sitting on the 200-MA Weak: vs EMA8 $513.10 / EMA21 $520.90: below 8, below 21; vs 200-MA $428.63: kiss/below (~\u22121%); weekly RSI ~55.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (calls + put-sale)",
+          "why": "$6M Apr'27 calls and weekly put sales (Nov 11), Feb call-spread buyer (Nov 13), W3 weekly calls + Feb call adjustments; sitting on the 200-MA",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$6M** \u00b7 Apr 2027 calls bought (2026-11-11); **~$1.9M** \u00b7 Dec 4 (W) put sale (2026-11-11)",
+            "Hawk recap \u00b7 **~$1M** \u00b7 Dec 24 (W) calls (2026-11-17); Feb calls bought adjusting higher strike (2026-11-19, $ n/s)"
+          ],
+          "net_premium": {
+            "raw": "~$6M",
+            "usd": 6000000.0,
+            "source_print": "Hawk recap \u00b7 **~$6M** \u00b7 Apr 2027 calls bought (2026-11-11); **~$1.9M** \u00b7 Dec 4 (W) put sale (2026-11-11)"
+          },
+          "confidence": "Med"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "not_on_desk",
+          "summary": "OI / Volland not on desk.",
+          "as_of": null,
+          "note": "Placeholder \u2014 pull from volland/notes/singles, dossiers/TEAM when present. Label Volland (not GEX).",
+          "source": null,
+          "monthly_opex": {
+            "status": "not_on_desk",
+            "label": "Monthly OpEx",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          },
+          "all_expiry": {
+            "status": "not_on_desk",
+            "label": "All expiry",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Weak: vs EMA8 $513.10 / EMA21 $520.90: below 8, below 21; vs 200-MA $428.63: kiss/below (~\u22121%); weekly RSI ~55.",
+          "technicals_note": "vs EMA8 **$513.10** / EMA21 **$520.90**: **below 8, below 21** \u00b7 vs 200-MA **$428.63**: **kiss/below (~\u22121%)** \u00b7 weekly RSI **~55** \u00b7 earnings: unknown",
+          "levels": {
+            "spot": 424.4,
+            "ema8": 513.103,
+            "ema21": 520.896,
+            "sma200": 428.627,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 30
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap \u00b7 **~$6M** \u00b7 Apr 2027 calls bought (2026-11-11); **~$1.9M** \u00b7 Dec 4 (W) put sale (2026-11-11)",
+      "trade_lines": [
+        {
+          "kind": "put",
+          "label": "Put strike",
+          "value": 580,
+          "note": "Apr $580p sold"
+        },
+        {
+          "kind": "call",
+          "label": "Call strike",
+          "value": 640,
+          "note": "Oct30 (W) $640c"
+        }
+      ],
+      "vol_oi": {
+        "contract": "AMD Oct30'26 $640C",
+        "volume": 472,
+        "oi": 6621,
+        "as_of": "2026-10-09 (RH option quotes, Oct 9 session)"
+      }
+    },
+    {
+      "rank": 6,
+      "ticker": "MRVL",
+      "composite": 59,
+      "flow": 88,
+      "tech": 5,
+      "structure_bias": "mixed (calls + put-sale vs W1 put buy)",
+      "put_sale_only": false,
+      "why": "W3 came back bullish: stock-replacement call buys (Nov 16, Nov 18), Dec 4 (W) call spreads, Jan'28 put sale, and a large Sep ITM opening put sale (Nov 19). W1 had a put-sale ladder vs the $22M Dec put buy",
+      "confidence": "Low",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$4.2M** \u00b7 May 2027 stock-replacement calls (2026-11-16); **~$4M** \u00b7 Jan stock-replacement calls (2026-11-18)",
+        "Hawk recap \u00b7 bearish **~$22M** \u00b7 Dec puts bought (2026-11-04); **~$3.5M** \u00b7 Jan 2028 put sale (2026-11-02); **~$3.9M** \u00b7 Dec 2027 put sale (2026-11-03)"
+      ],
+      "technicals_note": "vs EMA8 **$151.07** / EMA21 **$174.97**: **below 8, below 21** \u00b7 vs 200-MA **$188.35**: **below (~\u221235%)** \u00b7 weekly RSI **~40** \u00b7 earnings: unknown",
+      "tech_why": "Weak: vs EMA8 $151.07 / EMA21 $174.97: below 8, below 21; vs 200-MA $188.35: below (~\u221235%); weekly RSI ~40.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 122.965,
+        "ema8": 151.065,
+        "ema21": 174.97,
+        "sma200": 188.355,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "LOW"
+      ],
+      "net_premium": {
+        "raw": "~$22M",
+        "usd": 22000000.0,
+        "source_print": "Hawk recap \u00b7 bearish **~$22M** \u00b7 Dec puts bought (2026-11-04); **~$3.5M** \u00b7 Jan 2028 put sale (2026-11-02); **~$3.9M** \u00b7 Dec 2027 put sale (2026-11-03)"
+      },
+      "hawk_analysis": "W3 came back bullish: stock-replacement call buys (Nov 16, Nov 18), Dec 4 (W) call spreads, Jan'28 put sale, and a large Sep ITM opening put sale (Nov 19). W1 had a put-sale ladder vs the $22M Dec put buy Weak: vs EMA8 $151.07 / EMA21 $174.97: below 8, below 21; vs 200-MA $188.35: below (~\u221235%); weekly RSI ~40.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (calls + put-sale vs W1 put buy)",
+          "why": "W3 came back bullish: stock-replacement call buys (Nov 16, Nov 18), Dec 4 (W) call spreads, Jan'28 put sale, and a large Sep ITM opening put sale (Nov 19). W1 had a put-sale ladder vs the $22M Dec put buy",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$4.2M** \u00b7 May 2027 stock-replacement calls (2026-11-16); **~$4M** \u00b7 Jan stock-replacement calls (2026-11-18)",
+            "Hawk recap \u00b7 bearish **~$22M** \u00b7 Dec puts bought (2026-11-04); **~$3.5M** \u00b7 Jan 2028 put sale (2026-11-02); **~$3.9M** \u00b7 Dec 2027 put sale (2026-11-03)"
+          ],
+          "net_premium": {
+            "raw": "~$22M",
+            "usd": 22000000.0,
+            "source_print": "Hawk recap \u00b7 bearish **~$22M** \u00b7 Dec puts bought (2026-11-04); **~$3.5M** \u00b7 Jan 2028 put sale (2026-11-02); **~$3.9M** \u00b7 Dec 2027 put sale (2026-11-03)"
+          },
+          "confidence": "Low"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "not_on_desk",
+          "summary": "OI / Volland not on desk.",
+          "as_of": null,
+          "note": "Placeholder \u2014 pull from volland/notes/singles, dossiers/TEAM when present. Label Volland (not GEX).",
+          "source": null,
+          "monthly_opex": {
+            "status": "not_on_desk",
+            "label": "Monthly OpEx",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          },
+          "all_expiry": {
+            "status": "not_on_desk",
+            "label": "All expiry",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Weak: vs EMA8 $151.07 / EMA21 $174.97: below 8, below 21; vs 200-MA $188.35: below (~\u221235%); weekly RSI ~40.",
+          "technicals_note": "vs EMA8 **$151.07** / EMA21 **$174.97**: **below 8, below 21** \u00b7 vs 200-MA **$188.35**: **below (~\u221235%)** \u00b7 weekly RSI **~40** \u00b7 earnings: unknown",
+          "levels": {
+            "spot": 122.965,
+            "ema8": 151.065,
+            "ema21": 174.97,
+            "sma200": 188.355,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 5
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap \u00b7 **~$4.2M** \u00b7 May 2027 stock-replacement calls (2026-11-16); **~$4M** \u00b7 Jan stock-replacement calls (2026-11-18)",
+      "trade_lines": [],
+      "vol_oi": null
+    },
+    {
+      "rank": 7,
+      "ticker": "PLTR",
+      "composite": 57,
+      "flow": 77,
+      "tech": 20,
+      "structure_bias": "mixed (put-sale led + calls)",
+      "put_sale_only": false,
+      "why": "Hawk + Drew both had the Feb'27 call buy off the 200-MA (Nov 5); size Dec calls adjusting November (Nov 9); W3 Feb call roll plus Feb'27 and Jan'29 put sellers. Put-sale led",
+      "confidence": "Med",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap + Drew X \u00b7 **~$9M** \u00b7 Feb 2027 calls bought off the 200-MA (2026-11-05); **~$15M** \u00b7 Dec calls adjusting November (2026-11-09)",
+        "Hawk recap \u00b7 **~$1.9M** \u00b7 Jan 2029 put sale (2026-11-18); **~$1.4M** \u00b7 Feb 2027 put sale (2026-11-17); **~$12.5M** \u00b7 deep ITM Feb put sale (2026-11-03)"
+      ],
+      "technicals_note": "vs EMA8 **$161.62** / EMA21 **$171.64**: **below 8, below 21** \u00b7 vs 200-MA **$153.90**: **below (~\u22126%)** \u00b7 weekly RSI **~50** \u00b7 earnings: reported early Nov (per Nov 2 \"into earnings\" row)",
+      "tech_why": "Weak: vs EMA8 $161.62 / EMA21 $171.64: below 8, below 21; vs 200-MA $153.90: below (~\u22126%); weekly RSI ~50.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 144.835,
+        "ema8": 161.625,
+        "ema21": 171.642,
+        "sma200": 153.9,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "MED"
+      ],
+      "net_premium": {
+        "raw": "~$15M",
+        "usd": 15000000.0,
+        "source_print": "Hawk recap + Drew X \u00b7 **~$9M** \u00b7 Feb 2027 calls bought off the 200-MA (2026-11-05); **~$15M** \u00b7 Dec calls adjusting November (2026-11-09)"
+      },
+      "hawk_analysis": "Hawk + Drew both had the Feb'27 call buy off the 200-MA (Nov 5); size Dec calls adjusting November (Nov 9); W3 Feb call roll plus Feb'27 and Jan'29 put sellers. Put-sale led Weak: vs EMA8 $161.62 / EMA21 $171.64: below 8, below 21; vs 200-MA $153.90: below (~\u22126%); weekly RSI ~50.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (put-sale led + calls)",
+          "why": "Hawk + Drew both had the Feb'27 call buy off the 200-MA (Nov 5); size Dec calls adjusting November (Nov 9); W3 Feb call roll plus Feb'27 and Jan'29 put sellers. Put-sale led",
+          "top_prints": [
+            "Hawk recap + Drew X \u00b7 **~$9M** \u00b7 Feb 2027 calls bought off the 200-MA (2026-11-05); **~$15M** \u00b7 Dec calls adjusting November (2026-11-09)",
+            "Hawk recap \u00b7 **~$1.9M** \u00b7 Jan 2029 put sale (2026-11-18); **~$1.4M** \u00b7 Feb 2027 put sale (2026-11-17); **~$12.5M** \u00b7 deep ITM Feb put sale (2026-11-03)"
+          ],
+          "net_premium": {
+            "raw": "~$15M",
+            "usd": 15000000.0,
+            "source_print": "Hawk recap + Drew X \u00b7 **~$9M** \u00b7 Feb 2027 calls bought off the 200-MA (2026-11-05); **~$15M** \u00b7 Dec calls adjusting November (2026-11-09)"
+          },
+          "confidence": "Med"
+        },
+        "iv_catalyst": {
+          "status": "open",
+          "summary": "IV not on desk for this name.",
+          "note": "No invented IV \u2014 label OPEN until dossier/Trade Card carries it."
+        },
+        "oi_volland": {
+          "status": "not_on_desk",
+          "summary": "OI / Volland not on desk.",
+          "as_of": null,
+          "note": "Placeholder \u2014 pull from volland/notes/singles, dossiers/TEAM when present. Label Volland (not GEX).",
+          "source": null,
+          "monthly_opex": {
+            "status": "not_on_desk",
+            "label": "Monthly OpEx",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          },
+          "all_expiry": {
+            "status": "not_on_desk",
+            "label": "All expiry",
+            "expiry": null,
+            "walls": null,
+            "floors": null,
+            "pins": null,
+            "dealer_positioning": null,
+            "summary": "NOT ON DESK \u2014 no Volland read for this horizon.",
+            "gamma": null,
+            "vanna": null,
+            "gamma_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "vanna_levels": {
+              "pos": [],
+              "neg": []
+            },
+            "gamma_pos": [],
+            "gamma_neg": [],
+            "vanna_pos": [],
+            "vanna_neg": [],
+            "note": null
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Weak: vs EMA8 $161.62 / EMA21 $171.64: below 8, below 21; vs 200-MA $153.90: below (~\u22126%); weekly RSI ~50.",
+          "technicals_note": "vs EMA8 **$161.62** / EMA21 **$171.64**: **below 8, below 21** \u00b7 vs 200-MA **$153.90**: **below (~\u22126%)** \u00b7 weekly RSI **~50** \u00b7 earnings: reported early Nov (per Nov 2 \"into earnings\" row)",
+          "levels": {
+            "spot": 144.835,
+            "ema8": 161.625,
+            "ema21": 171.642,
+            "sma200": 153.9,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 20
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": null
+      },
+      "thesis_one_liner": null,
+      "top_print": "Hawk recap + Drew X \u00b7 **~$9M** \u00b7 Feb 2027 calls bought off the 200-MA (2026-11-05); **~$15M** \u00b7 Dec calls adjusting November (2026-11-09)",
+      "trade_lines": [],
+      "vol_oi": null
+    },
+    {
+      "rank": 8,
+      "ticker": "INTC",
+      "composite": 57,
+      "flow": 85,
+      "tech": 5,
+      "structure_bias": "mixed (calls vs call sales)",
+      "put_sale_only": false,
+      "why": "$8.7M Jun'27 calls (Nov 13) and big March and Feb call buys and adjustments in W2. W3 added November and Jan'28 call buys and a $4.5M Jun'28 put sale, but also 16K Sep calls opened short (Nov 16) and 20K March calls sold to open (Nov 19). 18A outside customer headline (Blitz 11/20)",
+      "confidence": "Low",
+      "spotlight": null,
+      "top_prints": [
+        "Hawk recap \u00b7 **~$8.7M** \u00b7 Jun 2027 calls bought (2026-11-13); March calls bought (2026-11-12, $ n/s)",
+        "Hawk recap \u00b7 **~$4.5M** \u00b7 Jun 2028 put sale (2026-11-18); bearish: March calls sold to open (2026-11-19, $ n/s)"
+      ],
+      "technicals_note": "vs EMA8 **$57.64** / EMA21 **$67.24**: **below 8, below 21** \u00b7 vs 200-MA **$87.54**: **below (~\u221240%)** \u00b7 weekly RSI **~37** \u00b7 earnings: unknown",
+      "tech_why": "Weak: vs EMA8 $57.64 / EMA21 $67.24: below 8, below 21; vs 200-MA $87.54: below (~\u221240%); weekly RSI ~37.",
+      "candles": [],
+      "chart": [],
+      "levels": {
+        "spot": 52.734,
+        "ema8": 57.636,
+        "ema21": 67.243,
+        "sma200": 87.539,
+        "as_of": "2026-11-20",
+        "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+      },
+      "chips": [
+        "MIXED",
+        "LOW"
+      ],
+      "net_premium": {
+        "raw": "~$8.7M",
+        "usd": 8700000.0,
+        "source_print": "Hawk recap \u00b7 **~$8.7M** \u00b7 Jun 2027 calls bought (2026-11-13); March calls bought (2026-11-12, $ n/s)"
+      },
+      "hawk_analysis": "$8.7M Jun'27 calls (Nov 13) and big March and Feb call buys and adjustments in W2. W3 added November and Jan'28 call buys and a $4.5M Jun'28 put sale, but also 16K Sep calls opened short (Nov 16) and 20K March calls sold to open (Nov 19). 18A outside customer headline (Blitz 11/20) Weak: vs EMA8 $57.64 / EMA21 $67.24: below 8, below 21; vs 200-MA $87.54: below (~\u221240%); weekly RSI ~37.",
+      "panels": {
+        "trade_summary": {
+          "status": "real",
+          "structure": "mixed (calls vs call sales)",
+          "why": "$8.7M Jun'27 calls (Nov 13) and big March and Feb call buys and adjustments in W2. W3 added November and Jan'28 call buys and a $4.5M Jun'28 put sale, but also 16K Sep calls opened short (Nov 16) and 20K March calls sold to open (Nov 19). 18A outside customer headline (Blitz 11/20)",
+          "top_prints": [
+            "Hawk recap \u00b7 **~$8.7M** \u00b7 Jun 2027 calls bought (2026-11-13); March calls bought (2026-11-12, $ n/s)",
+            "Hawk recap \u00b7 **~$4.5M** \u00b7 Jun 2028 put sale (2026-11-18); bearish: March calls sold to open (2026-11-19, $ n/s)"
+          ],
+          "net_premium": {
+            "raw": "~$8.7M",
+            "usd": 8700000.0,
+            "source_print": "Hawk recap \u00b7 **~$8.7M** \u00b7 Jun 2027 calls bought (2026-11-13); March calls bought (2026-11-12, $ n/s)"
+          },
+          "confidence": "Low"
+        },
+        "iv_catalyst": {
+          "status": "from_dossier",
+          "summary": "IV30 72.8%; skew \u22125.4",
+          "iv30": "72.8%",
+          "skew": "\u22125.4",
+          "as_of": "2026-09-24",
+          "note": "Snapshot from dossier Trade Card mention \u2014 not live IV desk feed"
+        },
+        "oi_volland": {
+          "status": "from_volland",
+          "summary": "Monthly OpEx + All-expiry Volland reads on desk.",
+          "as_of": "2026-09-30 10:07 CT",
+          "note": "Structured Volland scorecard export.",
+          "source": "/workspace/volland/2026-09-30/scorecard/INTC.json",
+          "monthly_opex": {
+            "status": "from_volland",
+            "label": "Monthly OpEx",
+            "expiry": "2026-10-16",
+            "walls": "120 (\u2212$0.74M)",
+            "floors": "110 (+$5.03M)",
+            "pins": "115 (+$1.25M)",
+            "dealer_positioning": "Mixed near spot: large +\u03b3 at 110/125, \u2212\u03b3 immediately above at 120 and far wall 160.",
+            "summary": "Monthly OpEx gamma/vanna on desk.",
+            "gamma": "+110 $5.03M; +125 $2.86M; +100 $1.82M; +115 $1.25M; +130 $1.20M | \u2212110 $5.03M; \u2212160 $0.85M; \u2212120 $0.74M; \u2212104 $0.50M",
+            "vanna": "+125 $0.32M; +140 $0.28M; +130 $0.22M | \u2212110 $0.66M; \u2212100 $0.52M; \u2212160 $0.38M",
+            "gamma_levels": {
+              "pos": [
+                {
+                  "strike": 110.0,
+                  "usd": 5028090.05,
+                  "display": "$5.03M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 125.0,
+                  "usd": 2864893.04,
+                  "display": "$2.86M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 100.0,
+                  "usd": 1816388.65,
+                  "display": "$1.82M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 115.0,
+                  "usd": 1246134.91,
+                  "display": "$1.25M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 130.0,
+                  "usd": 1201960.75,
+                  "display": "$1.20M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 110.0,
+                  "usd": 5028090.05,
+                  "display": "$5.03M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 160.0,
+                  "usd": 850469.25,
+                  "display": "$0.85M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 120.0,
+                  "usd": 740486.62,
+                  "display": "$0.74M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 104.0,
+                  "usd": 498424.08,
+                  "display": "$0.50M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "vanna_levels": {
+              "pos": [
+                {
+                  "strike": 125.0,
+                  "usd": 318975.0,
+                  "display": "$0.32M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 140.0,
+                  "usd": 281528.01,
+                  "display": "$0.28M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 130.0,
+                  "usd": 215379.28,
+                  "display": "$0.22M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 110.0,
+                  "usd": 657845.92,
+                  "display": "$0.66M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 100.0,
+                  "usd": 524815.03,
+                  "display": "$0.52M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 160.0,
+                  "usd": 376456.02,
+                  "display": "$0.38M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "gamma_pos": [
+              {
+                "strike": 110.0,
+                "usd": 5028090.05,
+                "display": "$5.03M",
+                "sign": "+"
+              },
+              {
+                "strike": 125.0,
+                "usd": 2864893.04,
+                "display": "$2.86M",
+                "sign": "+"
+              },
+              {
+                "strike": 100.0,
+                "usd": 1816388.65,
+                "display": "$1.82M",
+                "sign": "+"
+              },
+              {
+                "strike": 115.0,
+                "usd": 1246134.91,
+                "display": "$1.25M",
+                "sign": "+"
+              },
+              {
+                "strike": 130.0,
+                "usd": 1201960.75,
+                "display": "$1.20M",
+                "sign": "+"
+              }
+            ],
+            "gamma_neg": [
+              {
+                "strike": 110.0,
+                "usd": 5028090.05,
+                "display": "$5.03M",
+                "sign": "-"
+              },
+              {
+                "strike": 160.0,
+                "usd": 850469.25,
+                "display": "$0.85M",
+                "sign": "-"
+              },
+              {
+                "strike": 120.0,
+                "usd": 740486.62,
+                "display": "$0.74M",
+                "sign": "-"
+              },
+              {
+                "strike": 104.0,
+                "usd": 498424.08,
+                "display": "$0.50M",
+                "sign": "-"
+              }
+            ],
+            "vanna_pos": [
+              {
+                "strike": 125.0,
+                "usd": 318975.0,
+                "display": "$0.32M",
+                "sign": "+"
+              },
+              {
+                "strike": 140.0,
+                "usd": 281528.01,
+                "display": "$0.28M",
+                "sign": "+"
+              },
+              {
+                "strike": 130.0,
+                "usd": 215379.28,
+                "display": "$0.22M",
+                "sign": "+"
+              }
+            ],
+            "vanna_neg": [
+              {
+                "strike": 110.0,
+                "usd": 657845.92,
+                "display": "$0.66M",
+                "sign": "-"
+              },
+              {
+                "strike": 100.0,
+                "usd": 524815.03,
+                "display": "$0.52M",
+                "sign": "-"
+              },
+              {
+                "strike": 160.0,
+                "usd": 376456.02,
+                "display": "$0.38M",
+                "sign": "-"
+              }
+            ],
+            "note": "monthly 110 appears in both +\u03b3 and \u2212\u03b3 lists (capture quirk); walls/floors inferred preferring levels above/below spot; spot drifted 118.55\u2013118.81 during previews"
+          },
+          "all_expiry": {
+            "status": "from_volland",
+            "label": "All expiry",
+            "expiry": "All expirations",
+            "walls": "120 (\u2212$3.16M)",
+            "floors": "110 (+$7.86M)",
+            "pins": "119 (+$15.46M)",
+            "dealer_positioning": "+\u03b3 concentrated 110\u2013119 (pin ~119); \u2212\u03b3 dominates just above spot at 120.",
+            "summary": "All expiry gamma/vanna on desk.",
+            "gamma": "+119 $15.46M; +125 $9.69M; +121 $9.00M; +115 $8.15M; +110 $7.86M | \u2212120 $3.16M; \u221270 $2.81M; \u221280 $1.96M; \u2212129 $1.74M",
+            "vanna": "+70 $2.13M; +150 $1.40M; +80 $1.27M; +140 $1.10M | \u2212100 $0.91M; \u2212110 $0.89M; \u2212115 $0.46M; \u2212160 $0.46M",
+            "gamma_levels": {
+              "pos": [
+                {
+                  "strike": 119.0,
+                  "usd": 15464746.9,
+                  "display": "$15.46M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 125.0,
+                  "usd": 9688233.3,
+                  "display": "$9.69M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 121.0,
+                  "usd": 9003330.49,
+                  "display": "$9.00M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 115.0,
+                  "usd": 8147531.11,
+                  "display": "$8.15M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 110.0,
+                  "usd": 7862731.71,
+                  "display": "$7.86M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 120.0,
+                  "usd": 3164620.51,
+                  "display": "$3.16M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 70.0,
+                  "usd": 2810549.82,
+                  "display": "$2.81M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 80.0,
+                  "usd": 1959577.15,
+                  "display": "$1.96M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 129.0,
+                  "usd": 1739935.62,
+                  "display": "$1.74M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "vanna_levels": {
+              "pos": [
+                {
+                  "strike": 70.0,
+                  "usd": 2133727.14,
+                  "display": "$2.13M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 150.0,
+                  "usd": 1398735.83,
+                  "display": "$1.40M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 80.0,
+                  "usd": 1269933.01,
+                  "display": "$1.27M",
+                  "sign": "+"
+                },
+                {
+                  "strike": 140.0,
+                  "usd": 1097917.72,
+                  "display": "$1.10M",
+                  "sign": "+"
+                }
+              ],
+              "neg": [
+                {
+                  "strike": 100.0,
+                  "usd": 906999.71,
+                  "display": "$0.91M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 110.0,
+                  "usd": 886623.84,
+                  "display": "$0.89M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 115.0,
+                  "usd": 462949.68,
+                  "display": "$0.46M",
+                  "sign": "-"
+                },
+                {
+                  "strike": 160.0,
+                  "usd": 457091.76,
+                  "display": "$0.46M",
+                  "sign": "-"
+                }
+              ]
+            },
+            "gamma_pos": [
+              {
+                "strike": 119.0,
+                "usd": 15464746.9,
+                "display": "$15.46M",
+                "sign": "+"
+              },
+              {
+                "strike": 125.0,
+                "usd": 9688233.3,
+                "display": "$9.69M",
+                "sign": "+"
+              },
+              {
+                "strike": 121.0,
+                "usd": 9003330.49,
+                "display": "$9.00M",
+                "sign": "+"
+              },
+              {
+                "strike": 115.0,
+                "usd": 8147531.11,
+                "display": "$8.15M",
+                "sign": "+"
+              },
+              {
+                "strike": 110.0,
+                "usd": 7862731.71,
+                "display": "$7.86M",
+                "sign": "+"
+              }
+            ],
+            "gamma_neg": [
+              {
+                "strike": 120.0,
+                "usd": 3164620.51,
+                "display": "$3.16M",
+                "sign": "-"
+              },
+              {
+                "strike": 70.0,
+                "usd": 2810549.82,
+                "display": "$2.81M",
+                "sign": "-"
+              },
+              {
+                "strike": 80.0,
+                "usd": 1959577.15,
+                "display": "$1.96M",
+                "sign": "-"
+              },
+              {
+                "strike": 129.0,
+                "usd": 1739935.62,
+                "display": "$1.74M",
+                "sign": "-"
+              }
+            ],
+            "vanna_pos": [
+              {
+                "strike": 70.0,
+                "usd": 2133727.14,
+                "display": "$2.13M",
+                "sign": "+"
+              },
+              {
+                "strike": 150.0,
+                "usd": 1398735.83,
+                "display": "$1.40M",
+                "sign": "+"
+              },
+              {
+                "strike": 80.0,
+                "usd": 1269933.01,
+                "display": "$1.27M",
+                "sign": "+"
+              },
+              {
+                "strike": 140.0,
+                "usd": 1097917.72,
+                "display": "$1.10M",
+                "sign": "+"
+              }
+            ],
+            "vanna_neg": [
+              {
+                "strike": 100.0,
+                "usd": 906999.71,
+                "display": "$0.91M",
+                "sign": "-"
+              },
+              {
+                "strike": 110.0,
+                "usd": 886623.84,
+                "display": "$0.89M",
+                "sign": "-"
+              },
+              {
+                "strike": 115.0,
+                "usd": 462949.68,
+                "display": "$0.46M",
+                "sign": "-"
+              },
+              {
+                "strike": 160.0,
+                "usd": 457091.76,
+                "display": "$0.46M",
+                "sign": "-"
+              }
+            ],
+            "note": "monthly 110 appears in both +\u03b3 and \u2212\u03b3 lists (capture quirk); walls/floors inferred preferring levels above/below spot; spot drifted 118.55\u2013118.81 during previews"
+          }
+        },
+        "technical": {
+          "status": "real",
+          "tech_why": "Weak: vs EMA8 $57.64 / EMA21 $67.24: below 8, below 21; vs 200-MA $87.54: below (~\u221240%); weekly RSI ~37.",
+          "technicals_note": "vs EMA8 **$57.64** / EMA21 **$67.24**: **below 8, below 21** \u00b7 vs 200-MA **$87.54**: **below (~\u221240%)** \u00b7 weekly RSI **~37** \u00b7 earnings: unknown",
+          "levels": {
+            "spot": 52.734,
+            "ema8": 57.636,
+            "ema21": 67.243,
+            "sma200": 87.539,
+            "as_of": "2026-11-20",
+            "source": "RH get_equity_quotes live ~1:35 PM CT 11/20 + get_equity_technical_indicators day EMA8/EMA21/SMA200 (11/19 bar)"
+          },
+          "tech_score": 5
+        },
+        "fundamental": {
+          "status": "open",
+          "summary": "No fundamental profile on dossier \u2014 thesis is flow/team only."
+        },
+        "spotlight": null,
+        "thesis_one_liner": "Drew flags size Sep 2027 $180 far-OTM calls bought (2900 @~$21.48, $6.2M) in a CPU theme with AMD/ARM; Hawk Trade Card put-sale (Dec18 $110p) + Drew Sep 28 $20M+ next-year put sales (incomplete) \u2014 put flow is context, not a long sleeve."
+      },
+      "thesis_one_liner": "Drew flags size Sep 2027 $180 far-OTM calls bought (2900 @~$21.48, $6.2M) in a CPU theme with AMD/ARM; Hawk Trade Card put-sale (Dec18 $110p) + Drew Sep 28 $20M+ next-year put sales (incomplete) \u2014 put flow is context, not a long sleeve.",
+      "top_print": "Hawk recap \u00b7 **~$8.7M** \u00b7 Jun 2027 calls bought (2026-11-13); March calls bought (2026-11-12, $ n/s)",
+      "trade_lines": [
+        {
+          "kind": "put",
+          "label": "Put strike",
+          "value": 110,
+          "note": "Dec18'26 $110p sold (Trade Card)"
+        },
+        {
+          "kind": "call",
+          "label": "Call strike",
+          "value": 180,
+          "note": "Sep'27 $180c (Drew)"
+        },
+        {
+          "kind": "target",
+          "label": "Target",
+          "value": 130,
+          "note": "Hawk $130 tgt / Call Wall"
+        }
+      ],
+      "vol_oi": {
+        "contract": "INTC Dec18'26 $110P",
+        "volume": 609,
+        "oi": 20264,
+        "as_of": "2026-10-09 (RH option quotes, Oct 9 session)"
+      }
+    }
+  ],
+  "spotlight_watch": [
+    {
+      "date": "2026-11-10",
+      "ticker": "MDB",
+      "title": "Call Spreads in Best-in-Class Software Company Seeing Strong Usage on AI Agents",
+      "structure": "Jan call spreads (Trade Tracker add 11/12)",
+      "ticket": "OPEN",
+      "card_path": "watchers/hawk-spotlight/cards/2026-11-10-MDB.md"
+    },
+    {
+      "date": "2026-10-27",
+      "ticker": "XYZ",
+      "title": "Call Spreads in Payments Winner in the AI Era",
+      "structure": "Dec call spreads",
+      "ticket": "CLOSED \u2014 Hub close 2026-11-04",
+      "card_path": "watchers/hawk-spotlight/cards/2026-10-27-XYZ.md"
+    }
+  ],
+  "data_gaps": [],
+  "events": [
+    {
+      "ts": "2026-09-30 08:50 CT",
+      "ticker": "TEM",
+      "source": "Hawk Subs",
+      "premium": 100000.0,
+      "structure": "calls",
+      "note": "smoke test event"
+    },
+    {
+      "ts": "2026-09-30 08:53 CT",
+      "ticker": "MSFT",
+      "source": "hawk",
+      "premium": 4800000.0,
+      "structure": "Nov20'26 60c",
+      "note": "4850x ~.90 print bull-flag; looking to add to OI"
+    }
+  ],
+  "advisory": "Advisory only \u2014 not an order ticket. Never place orders from this board alone. Sizing lives on trade cards / dossiers / TEAM.md.",
+  "quiet_window_note": "Quiet window: no X API burn; no FOMO expands past sizing policy. Prefer AM/PM freebies digests and market-hours watches already on cron."
+}

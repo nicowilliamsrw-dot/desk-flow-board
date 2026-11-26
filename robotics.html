@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Robotics · Hawk Desk</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07090d;--card:rgba(22,27,36,.62);--line:rgba(255,255,255,.08);--tx:#e6ebf2;--mu:#8b95a7;--acc:#f5a623;--g:#34d399;--y:#fbbf24;--r:#f87171;--b:#60a5fa;--v:#a78bfa}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 10% -10%,rgba(245,166,35,.10),transparent 60%),radial-gradient(900px 500px at 100% 0,rgba(96,165,250,.10),transparent 60%),var(--bg);color:var(--tx);font:15px/1.55 Inter,system-ui,sans-serif;min-height:100vh}
+a{color:var(--acc)}.wrap{max-width:1180px;margin:0 auto;padding:20px 18px 60px}
+nav.top{display:flex;gap:6px;margin-bottom:18px;flex-wrap:wrap;font-family:Inter,system-ui,sans-serif}nav.top a{padding:7px 14px;border-radius:999px;border:1px solid var(--line);color:var(--mu);text-decoration:none;font-weight:600;font-size:13px;background:rgba(255,255,255,.02)}nav.top a:hover{text-decoration:none;color:var(--tx)}nav.top a.on{color:#111;background:var(--acc);border-color:var(--acc)}
+.glass{background:var(--card);border:1px solid var(--line);border-radius:20px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.hero{padding:26px 26px 22px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:-1px;background:linear-gradient(120deg,rgba(245,166,35,.16),transparent 40%,rgba(167,139,250,.12));pointer-events:none}
+.kick{font:700 11px JetBrains Mono,monospace;letter-spacing:.14em;color:var(--acc)}h1{font-size:clamp(22px,3.4vw,34px);margin:6px 0 4px;letter-spacing:-.02em;font-weight:800}h1 a{color:var(--tx);text-decoration:none}h1 a:hover{color:var(--acc)}
+.by{color:var(--mu);font-size:13px}.why{margin:14px 0 0;max-width:780px;color:#cfd6e2}
+h2{font-size:18px;margin:34px 0 12px;letter-spacing:-.01em}h2 small{color:var(--mu);font-weight:500;font-size:13px;margin-left:8px}
+/* map */
+.map{padding:22px;position:relative}.mapgrid{display:grid;grid-template-columns:repeat(4,1fr) 40px .9fr .9fr;gap:0;align-items:center;position:relative}
+.node{position:relative;z-index:2;margin:0 14px;padding:18px 16px;border-radius:18px;background:linear-gradient(160deg,rgba(255,255,255,.06),rgba(255,255,255,.015));border:1px solid var(--line);cursor:pointer;transition:transform .2s,border-color .2s,box-shadow .2s;text-align:left}
+.node:hover,.node:focus{transform:translateY(-3px);border-color:rgba(245,166,35,.5);outline:none}
+.node.glow{box-shadow:0 0 0 1px rgba(245,166,35,.45),0 0 28px rgba(245,166,35,.28)}
+.node .ic{font-size:24px}.node .nm{font-weight:700;font-size:15px;margin-top:4px}.node .sub{color:var(--mu);font-size:12px}.node .ct{position:absolute;top:10px;right:12px;font:700 11px JetBrains Mono;color:var(--mu)}
+.node .tops{margin-top:8px;display:flex;gap:4px;flex-wrap:wrap}.chip{font:700 10.5px JetBrains Mono;padding:2px 7px;border-radius:999px;background:rgba(245,166,35,.14);color:var(--acc)}
+.node.fund{border-style:dashed}.node.pick{border-style:dotted}.tabx{color:var(--mu);font-size:13px;margin:-4px 0 12px 2px}@media(max-width:900px){.mapgrid{grid-template-columns:1fr 1fr}}
+.conn{position:absolute;inset:0;z-index:1;pointer-events:none;width:100%;height:100%}
+.conn path{fill:none;stroke:url(#gr);stroke-width:2.5;stroke-dasharray:6 8;animation:flow 1.6s linear infinite}@keyframes flow{to{stroke-dashoffset:-28}}
+.maphint{color:var(--mu);font-size:12.5px;margin-top:14px}
+/* top5 */
+.top5{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.t5{padding:16px;border-radius:18px}.t5 .tk{font:700 20px JetBrains Mono}.t5 .rk{float:right;color:var(--mu);font:700 12px JetBrains Mono}
+.t5 p{margin:6px 0;font-size:13.5px;color:#cfd6e2}.idea{font-size:12.5px;color:var(--mu);border-top:1px solid var(--line);padding-top:8px;margin-top:8px}.idea b{color:var(--b)}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin:2px 4px 2px 0}.badge:before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.bg{color:var(--g);background:rgba(52,211,153,.12)}.by2{color:var(--y);background:rgba(251,191,36,.12)}.br{color:var(--r);background:rgba(248,113,113,.12)}.fl{color:var(--v);background:rgba(167,139,250,.14)}.fl:before{display:none}
+/* tabs */
+.tabbar{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.tb{border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--mu);padding:8px 14px;border-radius:999px;font:600 13px Inter;cursor:pointer}.tb.on{background:var(--tx);color:#0b0d12}
+.srch{margin-left:auto;display:flex;align-items:center;gap:6px}.srch button{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--tx);cursor:pointer;font-size:15px}
+.srch input{width:0;opacity:0;transition:.25s;border:1px solid var(--line);background:#0e1219;color:var(--tx);border-radius:999px;padding:8px 0;font:14px Inter}.srch.open input{width:200px;opacity:1;padding:8px 14px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.c{padding:13px 15px;border-radius:16px;cursor:pointer;transition:background .2s}.c:hover{background:rgba(30,36,48,.8)}.c .h{display:flex;justify-content:space-between;align-items:center}.c .tk{font:700 15px JetBrains Mono}.c .role{font-size:13px;color:#cfd6e2;margin:3px 0}
+.c .more{max-height:0;overflow:hidden;transition:max-height .3s ease;font-size:12.5px;color:var(--mu)}.c.open .more{max-height:220px}.c .more div{padding-top:8px;border-top:1px solid var(--line);margin-top:8px}
+.showall{margin:14px auto 0;display:block;background:none;border:1px solid var(--line);color:var(--tx);padding:9px 18px;border-radius:999px;cursor:pointer;font:600 13px Inter}
+.wk{padding:18px 20px}.wk ul{margin:6px 0 0;padding-left:18px}.wk li{margin:5px 0;font-size:13.5px}.wk .cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.wk h3{margin:0;font-size:14px;color:var(--acc)}
+.legend{color:var(--mu);font-size:12px;margin-top:10px}.foot{color:var(--mu);font-size:12px;margin-top:30px}
+/* side */
+#side{position:fixed;top:0;right:0;height:100%;width:min(440px,100%);transform:translateX(105%);transition:transform .3s ease;z-index:20;background:rgba(12,15,21,.96);border-left:1px solid var(--line);backdrop-filter:blur(16px);padding:22px;overflow:auto}#side.open{transform:none}
+#side .x{position:absolute;top:14px;right:16px;background:none;border:0;color:var(--tx);font-size:26px;cursor:pointer}#side h3{margin:4px 0 4px;font-size:22px}
+.srow{padding:12px 0;border-bottom:1px solid var(--line)}.srow .tk{font:700 15px JetBrains Mono}
+@media(max-width:900px){.top5{grid-template-columns:1fr 1fr}.mapgrid{grid-template-columns:1fr;gap:26px}.node{margin:0}.conn{display:none}.node:not(.fund):not(:nth-last-child(2)):after{content:"↓";position:absolute;left:50%;bottom:-24px;transform:translateX(-50%);color:var(--acc);font-weight:700}.sp{display:none}.wk .cols{grid-template-columns:1fr}}
+@media(max-width:520px){.top5{grid-template-columns:1fr}.wrap{padding:14px 12px 50px}.hero{padding:20px}.srch.open input{width:140px}}
+</style></head><body><div class="wrap">
+<nav class="top"><a href="index.html">Scorecard</a><a class="on" href="robotics.html">Robotics</a><a href="q4.html">Q4 Bearish</a></nav>
+<section class="glass hero"><div class="kick">ROBOTICS · ARTICLE WATCHLIST</div><h1><a id="atitle" target="_blank" rel="noopener" href="#">Ex Machina</a></h1><div class="by" id="aby"></div>
+<p class="why">AI has spent years living on screens; the next step is AI that can move through the real world, which needs robot bodies. Building those bodies takes chips for the "brain", motors and sensors for the "body", and factories to assemble them, so the money spreads well beyond NVIDIA. Robots already earn real revenue in surgery, warehouses and robotaxis, and those businesses show where the next wave of demand lands.</p></section>
+<h2>The robot supply chain <small>tap a step to see its names</small></h2>
+<section class="glass map"><div class="mapgrid" id="mapgrid"></div><div class="maphint">Glowing steps hold a Top 5 name. Funds bundle the whole chain into one ticker.</div></section>
+<h2>Top 5 to watch <small>names with OptionsHawk flow or the clearest setup</small></h2>
+<div class="top5" id="top5"></div>
+<h2>Browse by step</h2>
+<div class="tabbar" id="tabbar"><div class="srch" id="srch"><input id="q" placeholder="Search ticker or name" aria-label="Search"><button id="sbtn" aria-label="Search">⌕</button></div></div>
+<div class="tabx" id="tabx"></div><div class="cards" id="cards"></div><button class="showall" id="showall">Show all</button>
+<div class="legend"><span class="badge bg">Watch</span> flow or clear setup &nbsp; <span class="badge by2">Wait</span> catalyst or chart, no trigger yet &nbsp; <span class="badge br">Background</span> context only</div>
+<h2>What to watch this week</h2>
+<section class="glass wk"><div class="cols"><div><h3>Earnings coming up (Robinhood calendar)</h3><ul id="earn"></ul></div><div><h3>Recent Hawk / Drew flow</h3><ul id="flow"></ul></div></div></section>
+<p class="foot" id="foot"></p></div>
+<aside id="side" aria-label="Details"><button class="x" onclick="closeSide()">×</button><div id="sideBody"></div></aside>
+<script>
+const CAT={brains:{nm:"Brains",ic:"🧠",sub:"Chips & AI models",t:"NVDA GOOGL QCOM MU TXN ON NXPI ADI AMBA MBLY"},
+body:{nm:"Body parts",ic:"🦾",sub:"Motion, sensors, parts",t:"RRX TKR NOVT HSAI CGNX OUST VPG ALGM MP USAR JBL FLEX MGA PTC"},
+makers:{nm:"Robot makers",ic:"🤖",sub:"Who builds the robots",t:"BOT CCXI TSLA XPEV"},
+earn:{nm:"Where robots earn",ic:"💵",sub:"Surgery, warehouses, robotaxis",t:"ISRG SYM TER PONY AVAV CAT ROK LECO AMZN GXO PRCT SYK MDT JNJ WRD UBER AUR KDK ONDS KTOS"},
+funds:{nm:"Funds & ETFs",ic:"🧺",sub:"The whole theme in one ticker",x:"Baskets that hold many robot stocks at once, so you bet on the whole theme without picking one name.",t:"BOTZ KOID HUMN BOTT TORK"},
+picks:{nm:"Picks & shovels",ic:"⛏️",sub:"Suppliers to every robot maker",x:"Companies that sell parts, chips, tools or testing to every robot maker, so they win no matter which robot brand wins.",t:"NVDA QCOM TXN ADI ON NXPI ALGM TER CGNX NOVT RRX TKR ROK FLEX JBL",cross:true}};
+const PICK={NVDA:"Sells the robot brain chips (Jetson Thor) and AI models to almost every humanoid team.",QCOM:"Robot-brain chips already designed in at several robot makers.",TXN:"Power and control chips, roughly $1,000 of them in each robot.",ADI:"Sensors and motor-control chips that let robot joints move precisely.",ON:"Power chips and image sensors used in robot motors and cameras.",NXPI:"Processors and control chips for factory and mobile robots.",ALGM:"Motor-control and position sensors inside every moving joint.",TER:"Owns Universal Robots and also sells the testers that check every chip.",CGNX:"Machine-vision cameras that let factory robots see what they pick.",NOVT:"Precision motion parts and lasers used by robot and surgery-robot makers.",RRX:"Motors and gearing for robot joints; big humanoid order book.",TKR:"Precision bearings and drives that sit in robot arms and joints.",ROK:"Factory automation software and controls that run robot lines.",FLEX:"Contract manufacturer that builds hardware for many robot brands.",JBL:"Contract manufacturer that assembles robots and parts for others."};
+const ORDER=["brains","body","makers","earn","funds","picks"];
+const TOP={BOT:{why:"The article's headliner: broke out of a wedge Oct 5 (+8.5%), now cooled back near $27.",idea:"Wait for a reclaim of ~$30 before considering it; Drew says wait for the trade to pick up."},
+QCOM:{why:"Robot-brain chip wins at Figure, Neura and KUKA; options flow tagged in the article.",idea:"Watch how it reacts to TSM earnings Oct 15; a longer-dated call spread fits if chips hold."},
+TER:{why:"Owns Universal Robots, the biggest cobot maker. Flow tagged; earnings Oct 27.",idea:"Earnings play only after the post-OPEX window; a defined-risk call spread caps loss."},
+TXN:{why:"~$1,000 of chips in every robot. Hawk saw a $1.95M buyer of Oct 23 $302.5 calls into earnings Oct 21.",idea:"Copy-the-flow idea: a small Oct/Nov call or spread near the flow strike, before Oct 21."},
+SYM:{why:"Warehouse robots already earning. Drew wants a breakout over $46 on a weekly close.",idea:"Only act on a weekly close above $46; until then it's watch-only."}};
+const EARN={JNJ:"Oct 13 AM (today)",ISRG:"Oct 20 PM",TSLA:"Oct 21 PM",TXN:"Oct 21 PM",TER:"Oct 27 PM",LECO:"Oct 27 AM",NXPI:"Oct 27 PM",CGNX:"Oct 28 PM",GOOGL:"Oct 28 PM",AUR:"Oct 28 PM",FLEX:"Oct 28 AM",TKR:"Oct 28 AM",MBLY:"Oct 29 AM",AMZN:"Oct 29 PM",ALGM:"Oct 29 AM",SYK:"Oct 29 PM",CAT:"Oct 29 AM",MGA:"Oct 30 AM",ON:"Nov 2 AM",NOVT:"Nov 2 AM"};
+const FLOW=[["TXN","Oct 7 · Hawk: buyer of 3,000 Oct 23 $302.5 calls (~$1.95M) into earnings"],["BOT","Oct 11 · Drew: still likes robotics, wait for the trade to pick up before adding names"],["SYM","Oct 6 · Drew: watch, needs weekly close above $46"],["OUST","Oct 6 · Drew: watch for flow"],["RRX","Oct 6 · Drew: ~$40M humanoid orders, funnel >$200M"],["QCOM · TER · ALGM · FLEX","Oct 2 · open-interest flow tagged in the article"]];
+let N={},tab="brains",all=false,q="";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function catOf(t){return ORDER.find(k=>!CAT[k].cross&&CAT[k].t.split(" ").includes(t))||"body"}
+function watch(n){if(TOP[n.ticker]||n.options_flow)return["bg","Watch"];if(EARN[n.ticker]||n.badges.length)return["by2","Wait"];return["br","Background"]}
+function badges(n){const w=watch(n);return`<span class="badge ${w[0]}">${w[1]}</span>${n.options_flow?'<span class="badge fl">⚡ Flow</span>':""}${EARN[n.ticker]?`<span class="badge fl">📅 ${EARN[n.ticker]}</span>`:""}`}
+function list(k){return CAT[k].t.split(" ").map(t=>N[t]).filter(Boolean).sort((a,b)=>(!!TOP[b.ticker])-(!!TOP[a.ticker])||b.options_flow-a.options_flow)}
+function map(){const g=document.getElementById("mapgrid");g.innerHTML=ORDER.map((k,i)=>{const L=list(k),tops=L.filter(n=>TOP[n.ticker]);return(k=="funds"?'<div class="sp"></div>':"")+`<div class="node ${tops.length?"glow":""} ${k=="funds"?"fund":k=="picks"?"pick":""}" tabindex="0" data-k="${k}"><span class="ct">${L.length}</span><div class="ic">${CAT[k].ic}</div><div class="nm">${i<4?(i+1)+". ":""}${CAT[k].nm}</div><div class="sub">${CAT[k].sub}</div><div class="tops">${(tops.length?tops:L.slice(0,3)).map(n=>`<span class="chip">${n.ticker}</span>`).join("")}</div></div>`}).join("")+`<svg class="conn" id="conn"><defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#f5a623"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs></svg>`;
+g.querySelectorAll(".node").forEach(e=>{e.onclick=()=>openSide(e.dataset.k);e.onkeydown=ev=>{if(ev.key=="Enter")openSide(e.dataset.k)}});lines()}
+function lines(){const s=document.getElementById("conn"),g=document.getElementById("mapgrid");if(!s||getComputedStyle(s).display=="none")return;const R=g.getBoundingClientRect(),ns=[...g.querySelectorAll(".node")].map(e=>e.getBoundingClientRect());let d="";for(let i=0;i<3;i++){const a=ns[i],b=ns[i+1],y=a.top+a.height/2-R.top;d+=`M${a.right-R.left} ${y} C ${a.right-R.left+20} ${y-14}, ${b.left-R.left-20} ${y+14}, ${b.left-R.left} ${y} `}const f=ns[4];const a=ns[3],y=a.top+a.height/2-R.top;d+=`M${a.right-R.left} ${y} L ${f.left-R.left} ${f.top+f.height/2-R.top}`;const P=ns[5];if(P)d+=`M${f.right-R.left} ${f.top+f.height/2-R.top} L ${P.left-R.left} ${P.top+P.height/2-R.top} `;s.querySelectorAll("path").forEach(p=>p.remove());const p=document.createElementNS("http://www.w3.org/2000/svg","path");p.setAttribute("d",d);s.appendChild(p)}
+function openSide(k){const L=list(k).slice(0,8);document.getElementById("sideBody").innerHTML=`<div class="kick">${CAT[k].ic} STEP</div><h3>${CAT[k].nm}</h3><p style="color:var(--mu);margin:0 0 8px">${CAT[k].sub} · top ${L.length} of ${list(k).length}</p>`+L.map(n=>`<div class="srow"><span class="tk">${n.ticker}</span> <span style="color:var(--mu)">${esc(n.name)}</span><div style="margin:4px 0;font-size:13.5px">${esc(TOP[n.ticker]?TOP[n.ticker].why:(k=="picks"&&PICK[n.ticker])||n.note)}</div>${badges(n)}<div class="idea"><b>Idea (education only):</b> ${esc(idea(n))}</div></div>`).join("")+`<p class="foot">Education only. Not an order ticket.</p>`;document.getElementById("side").classList.add("open")}
+function idea(n){if(TOP[n.ticker])return TOP[n.ticker].idea;if(n.options_flow)return"Flow showed up here; wait for fresh Hawk prints before acting.";if(EARN[n.ticker])return`Earnings ${EARN[n.ticker]}: let the report settle, then reassess.`;return"Context name. Watch for flow or a chart setup first."}
+function closeSide(){document.getElementById("side").classList.remove("open")}document.addEventListener("keydown",e=>{if(e.key=="Escape")closeSide()});
+function top5(){document.getElementById("top5").innerHTML=Object.keys(TOP).map((t,i)=>{const n=N[t];return`<div class="glass t5"><span class="rk">#${i+1}</span><div class="tk">${t}</div><div style="color:var(--mu);font-size:12px">${esc(n.name)}</div>${badges(n)}<p>${esc(TOP[t].why)}</p><div class="idea"><b>Idea (education only):</b> ${esc(TOP[t].idea)}</div></div>`}).join("")}
+function tabs(){const bar=document.getElementById("tabbar"),s=document.getElementById("srch");bar.querySelectorAll(".tb").forEach(b=>b.remove());ORDER.forEach(k=>{const b=document.createElement("button");b.className="tb"+(k==tab&&!q?" on":"");b.textContent=CAT[k].nm;b.onclick=()=>{tab=k;all=false;q="";document.getElementById("q").value="";tabs();cards()};bar.insertBefore(b,s)})}
+function cards(){let L=q?Object.values(N).filter(n=>(n.ticker+" "+n.name+" "+n.note).toLowerCase().includes(q)):list(tab);const tot=L.length;if(!all&&!q)L=L.slice(0,8);document.getElementById("cards").innerHTML=L.map(n=>`<div class="glass c" onclick="this.classList.toggle('open')"><div class="h"><span class="tk">${n.ticker}</span>${badges(n).split("</span>")[0]}</span></div><div class="role">${esc(tab=="picks"&&!q&&PICK[n.ticker]?PICK[n.ticker]:n.note)}</div>${n.options_flow?'<span class="badge fl">⚡ Flow · OI 10/2</span>':""}<div class="more"><div><b style="color:var(--tx)">${esc(n.name)}</b> · ${CAT[catOf(n.ticker)].nm}${EARN[n.ticker]?" · Earnings "+EARN[n.ticker]:""}<br>${esc(n.badges.map(b=>b.text).join(" · "))}<br><b style="color:var(--b)">Idea:</b> ${esc(idea(n))}</div></div></div>`).join("")||'<p style="color:var(--mu)">No matches.</p>';const sa=document.getElementById("showall");sa.style.display=(!q&&tot>8)?"block":"none";sa.textContent=all?"Show fewer":`Show all ${tot}`;document.getElementById("tabx").textContent=q?"":(CAT[tab].x||CAT[tab].sub)}
+document.getElementById("showall").onclick=()=>{all=!all;cards()};
+document.getElementById("sbtn").onclick=()=>{const s=document.getElementById("srch");s.classList.toggle("open");if(s.classList.contains("open"))document.getElementById("q").focus()};
+document.getElementById("q").oninput=e=>{q=e.target.value.trim().toLowerCase();tabs();cards()};
+window.addEventListener("resize",lines);
+fetch("robotics.json?t="+Date.now()).then(r=>r.json()).then(d=>{d.sections.forEach(s=>s.groups.forEach(g=>g.names.forEach(n=>{if(!N[n.ticker])N[n.ticker]=n;else if(n.options_flow)N[n.ticker].options_flow=true})));
+const a=d.article;document.getElementById("atitle").textContent=a.title;document.getElementById("atitle").href=a.url;document.getElementById("aby").textContent=`${a.author} · ${a.outlet} · ${a.date_label} · ${Object.keys(N).length} US-listed names`;
+map();top5();tabs();cards();
+document.getElementById("earn").innerHTML=Object.entries(EARN).slice(0,12).map(([t,v])=>`<li><b>${t}</b> · ${v}</li>`).join("");
+document.getElementById("flow").innerHTML=FLOW.map(([t,v])=>`<li><b>${t}</b> · ${v}</li>`).join("");
+document.getElementById("foot").textContent=`${d.advisory} Earnings from Robinhood calendar (read Oct 13, 2026). Article list updated ${d.updated}.`;
+setTimeout(lines,300)});
+</script></body></html>
